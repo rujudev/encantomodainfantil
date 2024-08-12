@@ -1,0 +1,97 @@
+# EXTENSIONS
+############
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.swp
+*.t3x
+*.tar.gz
+*.tar
+*.zip
+
+# TEMPORAL FILES
+################
+/tmp/
+.tmp_*
+.DS_Store
+
+# WORDPRESS
+###########
+/wp-config.php
+/*-local-config.php
+/wp-content/uploads/
+/wp-content/upgrade/
+/wp-content/backup*
+/wp-content/ewww
+
+/sitemap.xml
+/sitemap_index.xml
+/sitemap.xml.gz
+
+/wp-content/plugins/query-monitor/
+
+/wp-content/plugins/wp-all-import*
+/wp-content/plugins/wp-all-export*
+/wp-content/plugins/wordpress-importer/
+
+# CACHE UNTRACKED FILES AND PLUGINS
+# #################################
+/wp-content/advanced-cache.php
+/wp-content/autoptimize_404_handler.php
+/wp-content/db.php
+/wp-content/object-cache.php
+/wp-content/cache/
+/wp-content/et-cache/
+/wp-content/plugins/w3-total-cache/
+/wp-content/w3tc-config/
+/wp-content/wp-rocket-config/
+/wp-content/plugins/nginx-helper
+/wp-content/plugins/wp-optimize
+
+# COMMON FILES
+##############
+/_old/
+/bin/dev*
+/robots.txt
+/.htaccess
+/.maintenance
+/nginx.conf
+
+## OS GENERATED FILES
+#####################
+.DS_Store
+.DS_Store?
+.localized
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+[Tt]humbs.db
+sftp-config.json
+.well-known
+.bash*
+.vi*
+.vscode
+.idea
+.php-ini
+.php-version
+.devilbox
+
+# LOGS, DATABASES AND MISC
+# ########################
+*.log
+*.sqlite
+*.sass-cache
+/wp-content/plugins/easy-wp-smtp/logs/
+
+# PLESK
+#######
+/plesk-stat/
+
+# VERIFICATIONS
+###############
+/google*
+/siteaudit-*.txt

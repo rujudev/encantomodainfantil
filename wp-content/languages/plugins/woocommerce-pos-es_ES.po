@@ -1,0 +1,575 @@
+# Translation of Plugins - WooCommerce POS &#8211; Point of Sale - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - WooCommerce POS &#8211; Point of Sale - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-06-29 16:21:13+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - WooCommerce POS &#8211; Point of Sale - Stable (latest release)\n"
+
+#: includes/Services/Settings.php:503
+msgid "Invalid visibility option provided"
+msgstr "Facilitada una opción de visibilidad no válida"
+
+#: includes/Templates/Payment.php:355
+msgid "Disable Selected Scripts"
+msgstr "Desactivar los scripts seleccionados"
+
+#: includes/Templates/Payment.php:344
+msgid "Disable Selected Styles"
+msgstr "Desactivar los estilos seleccionados"
+
+#: includes/Templates/Payment.php:339
+msgid "Disable wp_footer"
+msgstr "Desactivar wp_footer"
+
+#: includes/Templates/Payment.php:334
+msgid "Disable wp_head"
+msgstr "Desactivar wp_head"
+
+#: includes/Templates/Payment.php:331
+msgid "Disable All Styles and Scripts"
+msgstr "Desactivar todos los estilos y scripts"
+
+#: includes/Templates/Payment.php:323
+msgid "Checkout Settings"
+msgstr "Ajustes de finalizar compra"
+
+#: includes/Services/Settings.php:491
+msgid "Invalid arguments provided"
+msgstr "Facilitados argumentos no válidos"
+
+#: includes/API/Orders_Controller.php:231
+msgid "UUID already in use."
+msgstr "UUID ya en uso."
+
+#: includes/API/Stores.php:107
+msgid "Store not found"
+msgstr "Tienda no encontrada"
+
+#: includes/API/Data_Order_Statuses_Controller.php:128
+msgid "Order Status Label."
+msgstr "Etiqueta de estado del pedido."
+
+#: includes/API/Data_Order_Statuses_Controller.php:122
+msgid "Order Status."
+msgstr "Estado del pedido."
+
+#: includes/Form_Handler.php:67
+msgid "Token not provided."
+msgstr "Token no proporcionado."
+
+#: includes/Form_Handler.php:79
+msgid "Cashier token mismatch."
+msgstr "Falta de coincidencia de token de cajero."
+
+#: includes/Form_Handler.php:55
+msgid "Order key mismatch."
+msgstr "No coincide la clave de pedido."
+
+#: includes/Form_Handler.php:45
+msgid "Order does not exist."
+msgstr "El pedido no existe."
+
+#: includes/Admin/Updaters/Pro_Plugin_Updater.php:650
+msgid "<a href=\"%s\">Please renew</a> to receive updates."
+msgstr "<a href=\"%s\">Por favor, renueva</a> para recibir actualizaciones."
+
+#: includes/Admin/Updaters/Pro_Plugin_Updater.php:646
+msgid "Your WooCommerce Pro license has expired."
+msgstr "Tu licencia de WooCommerce Pro ha caducado."
+
+#: includes/Admin/Updaters/Pro_Plugin_Updater.php:629
+msgid "<a href=\"%s\">Click here</a> to activate your license key."
+msgstr "<a href=\"%s\">Haz clic aquí</a> para activar tu clave de licencia."
+
+#: includes/Admin/Updaters/Pro_Plugin_Updater.php:625
+msgid "Your WooCommerce Pro license is inactive."
+msgstr "Tu licencia de WooCommerce Pro está inactiva."
+
+#: includes/Admin/Updaters/Pro_Plugin_Updater.php:612
+msgid "You are receiving plugin updates."
+msgstr "Estás recibiendo actualizaciones del plugin."
+
+#: includes/Admin/Updaters/Pro_Plugin_Updater.php:610
+msgid "Your WooCommerce Pro license is valid and active."
+msgstr "Tu licencia de WooCommerce Pro es válida y está activa."
+
+#: includes/Admin/Updaters/Pro_Plugin_Updater.php:571
+msgid "Your WooCommerce Pro license has expired"
+msgstr "Tu licencia de WooCommerce Pro ha caducado"
+
+#: includes/Admin/Updaters/Pro_Plugin_Updater.php:567
+msgid "Your WooCommerce Pro license is inactive"
+msgstr "Tu licencia de WooCommerce Pro está inactiva"
+
+#: includes/Admin/Updaters/Pro_Plugin_Updater.php:493
+#: includes/Admin/Updaters/Pro_Plugin_Updater.php:662
+msgid "Something went wrong. Please try again later."
+msgstr "Algo ha ido mal. Por favor, inténtalo de nuevo más tarde."
+
+#: includes/Gateways/Cash.php:90 templates/receipt.php:279
+msgid "Change"
+msgstr "Cambio"
+
+#: includes/API/Stores.php:151
+msgid "You do not have permissions to view this data."
+msgstr "No tienes permisos para ver estos datos."
+
+#: includes/API/Stores.php:89
+msgid "Failed to retrieve store data"
+msgstr "Error al recuperar los datos de la tienda"
+
+#: includes/API/Orders_Controller.php:497
+msgid "Display name of the order status."
+msgstr "Nombre para mostrar el estado del pedido."
+
+#: includes/API/Orders_Controller.php:491
+msgid "Unique identifier for the order status."
+msgstr "Identificador único del estado del pedido."
+
+#. translators: Use default WordPress translation
+#: includes/API/Customers_Controller.php:169
+#: includes/API/Orders_Controller.php:365
+msgid "Invalid email address."
+msgstr "Dirección de correo electrónico no válida."
+
+#. translators: WordPress
+#: includes/Admin/Updaters/Pro_Plugin_Updater.php:505
+msgid "Plugin Installation"
+msgstr "Instalación del plugin"
+
+#: includes/Admin/Products/Single_Product.php:115
+#: includes/Admin/Products/Single_Product.php:175
+msgid "Enable POS specific taxes."
+msgstr "Activar impuestos específicos de TPV."
+
+#: includes/Admin/Products/Single_Product.php:95
+#: includes/Admin/Products/Single_Product.php:161
+msgid "Enable POS specific prices."
+msgstr "Activar precios específicos de TPV."
+
+#. translators: 1: old POS cashier, 2: new POS cashier
+#: includes/Admin/Orders/Single_Order.php:126
+#: includes/Admin/Orders/Single_Order.php:127
+msgid "Unknown"
+msgstr "Desconocido"
+
+#. translators: 1: old POS cashier, 2: new POS cashier
+#: includes/Admin/Orders/Single_Order.php:125
+msgid "POS cashier changed from %1$s to %2$s."
+msgstr "El cajero del TPV ha cambiado de %1$s a %2$s."
+
+#: includes/Admin/Orders/Single_Order.php:83
+msgid "Search for a cashier&hellip;"
+msgstr "Busca un cajero&hellip;"
+
+#: includes/Admin/Orders/Single_Order.php:82
+msgid "POS Cashier"
+msgstr "Cajero TPV"
+
+#: includes/Activator.php:133
+msgid "<strong>WooCommerce POS</strong> requires <a href=\"%1$s\">WooCommerce %2$s or higher</a>. Please <a href=\"%3$s\">install and activate WooCommerce</a>"
+msgstr "<strong>WooCommerce POS</strong> requiere <a href=\"%1$s\">WooCommerce %2$s o superior</a>. Por favor, <a href=\"%3$s\">instala y activa WooCommerce</a>."
+
+#: woocommerce-pos.php:87
+msgid "The WooCommerce POS plugin failed to load correctly."
+msgstr "El plugin WooCommerce POS no se ha cargado correctamente."
+
+#: templates/receipt.php:330
+msgid "Customer Notes"
+msgstr "Notas del cliente"
+
+#: templates/receipt.php:186
+msgid "Payment method:"
+msgstr "Método de pago:"
+
+#: templates/receipt.php:172
+msgid "Date:"
+msgstr "Fecha:"
+
+#: templates/receipt.php:168
+msgid "Order number:"
+msgstr "Número de pedido:"
+
+#: templates/receipt.php:163
+msgid "Tax Receipt"
+msgstr "Recibo de impuestos"
+
+#: includes/Templates/Payment.php:486
+msgid "Applied coupons"
+msgstr "Cupones aplicados"
+
+#: includes/Templates/Payment.php:479 includes/Templates/Payment.php:480
+msgid "Apply coupon"
+msgstr "Aplicar cupón"
+
+#: includes/Templates/Payment.php:478
+msgid "Coupon code"
+msgstr "Código de cupón"
+
+#: includes/Templates/Payment.php:440 templates/receipt.php:311
+msgid "Shipping address"
+msgstr "Dirección de envío"
+
+#: includes/Templates/Payment.php:427 templates/receipt.php:294
+msgid "Billing address"
+msgstr "Dirección de facturación"
+
+#: includes/Templates/Payment.php:419
+msgid "Paying as customer"
+msgstr "Pagando como cliente"
+
+#: includes/Templates/Payment.php:367
+msgid "Submit"
+msgstr "Enviar"
+
+#: includes/Templates/Payment.php:329
+msgid "Scripts and styles may interfere with the custom payment template, use this form to dequeue any problematic scripts."
+msgstr "Los scripts y estilos pueden interferir con la plantilla de pago personalizada, utiliza este formulario para retirar cualquier script problemático."
+
+#: templates/login.php:58
+msgid "Show password"
+msgstr "Mostrar contraseña"
+
+#: templates/login.php:55
+msgid "Password"
+msgstr "Contraseña"
+
+#: templates/login.php:50
+msgid "Username or Email Address"
+msgstr "Nombre de usuario o dirección de correo electrónico"
+
+#: templates/login.php:19
+msgid "Powered by WordPress"
+msgstr "Funciona con WordPress"
+
+#: templates/login.php:18
+msgid "https://wordpress.org/"
+msgstr "https://es.wordpress.org/"
+
+#. translators: 1. %s: Settings group id, 2. %s: Settings key
+#: includes/Services/Settings.php:171
+msgid "Settings with id %1$s and key %2$s not found"
+msgstr "Ajustes con id %1$s y clave %2$s no encontrados"
+
+#: includes/Templates/Receipt.php:56 includes/Templates/Received.php:34
+msgid "Sorry, this order is invalid."
+msgstr "Lo siento, este pedido no es válido."
+
+#: includes/Templates/Payment.php:204
+msgid "Pay for order"
+msgstr "Pagar el pedido"
+
+#: includes/Templates/Payment.php:192
+msgid "This order cannot be paid for. Please contact us if you need assistance."
+msgstr "No es posible pagar el pedido. Por favor, ponte en contacto con nosotros si necesitas ayuda."
+
+#: includes/Templates/Payment.php:223
+msgid "Sorry, this order has already been paid for."
+msgstr "Lo siento, este pedido ya ha sido pagado."
+
+#: includes/Templates/Payment.php:219
+msgid "Sorry, this order is invalid and cannot be paid for."
+msgstr "Lo siento, el pedido no es válido y no se puede realizar el pago."
+
+#: includes/Templates.php:121 includes/Templates.php:138
+msgid "Template not found."
+msgstr "Plantilla no encontrada."
+
+#. translators: %s: Settings group id, ie: 'general' or 'checkout'
+#: includes/Services/Settings.php:236
+msgid "Can not save settings with id %s"
+msgstr "No se puede guardar los ajustes con id %s"
+
+#. translators: %s: Settings group id, ie: 'general' or 'checkout'
+#: includes/Services/Settings.php:182
+msgid "Settings with id %s not found"
+msgstr "Ajustes con id %s no encontrados"
+
+#: includes/Services/Auth.php:123
+msgid "JWT is not configured properly, please contact the admin"
+msgstr "JWT no está configurado correctamente, ponte en contacto con el administrador"
+
+#. translators: %s is the number of orders with POS - Partial Payment status
+#: includes/Orders.php:206
+msgid "POS - Partial Payment <span class=\"count\">(%s)</span>"
+msgid_plural "POS - Partial Payment <span class=\"count\">(%s)</span>"
+msgstr[0] "TPV - Pago parcial <span class=\"count\">(%s)</span>"
+msgstr[1] "TPV - Pagos parciales <span class=\"count\">(%s)</span>"
+
+#. translators: %s is the number of orders with POS - Open status
+#: includes/Orders.php:188
+msgid "POS - Open <span class=\"count\">(%s)</span>"
+msgid_plural "POS - Open <span class=\"count\">(%s)</span>"
+msgstr[0] "TPV - Abierto <span class=\"count\">(%s)</span>"
+msgstr[1] "TPV - Abiertos <span class=\"count\">(%s)</span>"
+
+#: includes/Orders.php:71 includes/Orders.php:200
+msgctxt "Order status"
+msgid "POS - Partial Payment"
+msgstr "TPV - Pago parcial"
+
+#: includes/Orders.php:70 includes/Orders.php:182
+msgctxt "Order status"
+msgid "POS - Open"
+msgstr "TPV - Abierto"
+
+#: includes/Gateways/Cash.php:152
+msgid "Partial Payment"
+msgstr "Pago parcial"
+
+#: includes/Gateways/Cash.php:129
+msgid "Nonce verification failed"
+msgstr "Ha fallado la verificación del nonce"
+
+#: includes/API/Orders_Controller.php:167
+#: includes/API/Products_Controller.php:100
+#: includes/API/Product_Variations_Controller.php:105
+msgid "Barcode"
+msgstr "Código de barras"
+
+#: includes/API/Orders_Controller.php:442
+msgid "Sorry, you are not allowed to create resources."
+msgstr "Lo siento, no tienes permiso para crear recursos."
+
+#: includes/API/Orders_Controller.php:426
+msgid "Order details manually sent to %s from WooCommerce POS."
+msgstr "Detalles del pedido enviados manualmente a %s desde el WooCommerce POS."
+
+#: includes/API/Orders_Controller.php:414
+msgid "Email address %s added to billing details from WooCommerce POS."
+msgstr "Dirección de correo electrónico %s añadida a los detalles de facturación desde el WooCommerce POS."
+
+#: includes/API/Orders_Controller.php:408
+msgid "Invalid order ID."
+msgstr "ID de pedido no válido"
+
+#: includes/API/Orders_Controller.php:135
+msgid "Save email to order"
+msgstr "Guardar correo electrónico para hacer un pedido"
+
+#: includes/API/Orders_Controller.php:130
+msgid "Email address"
+msgstr "Correo electrónico"
+
+#: includes/API/Auth.php:79 includes/API/Auth.php:96 includes/API/Auth.php:113
+msgid "JWT token."
+msgstr "Token JWT."
+
+#: includes/Admin/Settings.php:55
+msgid "Settings failed to load, please contact support"
+msgstr "No se han podido cargar los ajustes, ponte en contacto con el servicio de asistencia"
+
+#: includes/Admin/Settings.php:54 includes/Form_Handler.php:46
+#: includes/Form_Handler.php:56 includes/Form_Handler.php:68
+#: includes/Form_Handler.php:80 includes/Form_Handler.php:119
+msgid "Error"
+msgstr "Error"
+
+#: includes/Admin/Products/List_Products.php:98
+#: includes/Admin/Products/Single_Product.php:78
+#: includes/Admin/Products/templates/variation-metabox-pos-barcode.php:14
+msgid "Product barcode used at the point of sale"
+msgstr "Código de barras del producto utilizado en el punto de venta"
+
+#: includes/Admin/Products/List_Products.php:96
+#: includes/Admin/Products/Single_Product.php:76
+#: includes/Admin/Products/templates/variation-metabox-pos-barcode.php:13
+msgid "POS Barcode"
+msgstr "Código de barras del TPV"
+
+#. Author URI of the plugin
+#: woocommerce-pos.php
+msgid "http://wcpos.com"
+msgstr "http://wcpos.com"
+
+#. Author of the plugin
+#: woocommerce-pos.php
+msgid "kilbot"
+msgstr "kilbot"
+
+#. Description of the plugin
+#: woocommerce-pos.php
+msgid "A simple front-end for taking WooCommerce orders at the Point of Sale. Requires <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a>."
+msgstr "Una sencilla portada para hacer los pedidos de WooCommerce en el punto de venta. Se necesita <a href=\"http://es.wordpress.org/plugins/woocommerce/\">WooCommerce</a>."
+
+#. Plugin URI of the plugin
+#: woocommerce-pos.php
+msgid "https://wordpress.org/plugins/woocommerce-pos/"
+msgstr "https://es.wordpress.org/plugins/woocommerce-pos/"
+
+#. Plugin Name of the plugin
+#: woocommerce-pos.php
+msgid "WooCommerce POS"
+msgstr "WooCommerce POS"
+
+#: templates/pos.php:14
+msgid "Point of Sale"
+msgstr "Punto de venta"
+
+#: includes/Activator.php:216 includes/Templates/Payment.php:402
+#: templates/receipt.php:181
+msgid "Cashier"
+msgstr "Cajero"
+
+#: templates/receipt.php:226
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#: templates/receipt.php:198 templates/receipt.php:263
+msgid "Total"
+msgstr "Total"
+
+#: templates/receipt.php:195
+msgid "Product"
+msgstr "Producto"
+
+#: templates/receipt.php:197
+msgid "Price"
+msgstr "Precio"
+
+#: templates/receipt.php:196
+msgid "Quantity"
+msgstr "Cantidad"
+
+#: includes/Templates/Payment.php:489
+msgid "Remove"
+msgstr "Quitar"
+
+#. translators: wordpress
+#: includes/Admin/Products/templates/post-metabox-visibility-select.php:43
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. translators: wordpress
+#: includes/Admin/Products/templates/post-metabox-visibility-select.php:36
+msgid "OK"
+msgstr "Aceptar"
+
+#. translators: wordpress
+#: includes/Admin/Products/templates/post-metabox-visibility-select.php:17
+msgid "Edit"
+msgstr "Editar"
+
+#: includes/Admin/Products/templates/post-metabox-visibility-select.php:11
+#: includes/Admin/Products/templates/quick-edit-visibility-select.php:14
+#: includes/Admin/Products/templates/variation-metabox-visibility-select.php:13
+msgid "POS visibility"
+msgstr "Visibilidad del TPV"
+
+#: includes/Admin/Products/List_Products.php:41
+#: includes/Admin/Products/List_Products.php:124
+#: includes/Admin/Products/Single_Product.php:46
+msgid "Online Only"
+msgstr "Solo online"
+
+#: includes/Admin/Products/List_Products.php:40
+#: includes/Admin/Products/List_Products.php:123
+#: includes/Admin/Products/Single_Product.php:45
+msgid "POS Only"
+msgstr "Solo TPV"
+
+#: includes/Admin/Products/List_Products.php:39
+#: includes/Admin/Products/Single_Product.php:44
+msgid "POS & Online"
+msgstr "TPV y online"
+
+#: includes/Gateways/Cash.php:82 includes/Gateways/Cash.php:85
+#: includes/Gateways/Cash.php:197 templates/receipt.php:273
+msgid "Amount Tendered"
+msgstr "Cantidad entregada"
+
+#: includes/Gateways/Cash.php:27
+msgid "Cash"
+msgstr "Efectivo"
+
+#: includes/Gateways/Card.php:61 includes/Gateways/Card.php:64
+#: includes/Gateways/Card.php:93 includes/Gateways/Card.php:131
+msgid "Cashback"
+msgstr "Cambio"
+
+#: includes/Gateways/Card.php:24
+msgid "Card"
+msgstr "Tarjeta"
+
+#. translators: wordpress
+#: includes/Templates/Frontend.php:41
+msgid "You do not have sufficient permissions to access this page."
+msgstr "No tienes suficientes permisos para acceder a esta página."
+
+#: includes/Activator.php:154
+msgid "Enable permalinks"
+msgstr "Activar enlaces permanentes"
+
+#: includes/Activator.php:153
+msgid "<strong>WooCommerce REST API</strong> requires <em>pretty</em> permalinks to work correctly"
+msgstr "La <strong>API REST de WooCommerce</strong> necesita enlaces permanentes <em>bonitos</em> para funcionar correctamente"
+
+#: includes/Templates/Payment.php:429 includes/Templates/Payment.php:442
+#: templates/receipt.php:297 templates/receipt.php:313
+msgid "N/A"
+msgstr "N/D"
+
+#: includes/Templates/Payment.php:420
+msgid "Guest"
+msgstr "Invitado"
+
+#: templates/receipt.php:243
+msgid "Discount"
+msgstr "Descuento"
+
+#: includes/Gateways/Cash.php:199
+msgctxt "Money returned from cash sale"
+msgid "Change"
+msgstr "Cambio"
+
+#: templates/receipt.php:231
+msgid "Shipping"
+msgstr "Envío"
+
+#: includes/Activator.php:116
+msgid "<strong>WooCommerce POS</strong> requires PHP %1$s or higher. Read more information about <a href=\"%2$s\">how you can update</a>"
+msgstr "<strong>WooCommerce POS</strong> requiere PHP %1$s o superior. Lee más información sobre <a href=\"%2$s\">cómo puedes actualizarlo</a>"
+
+#: includes/Activator.php:283
+msgid "<strong>WooCommerce POS</strong> requires <a href=\"%1$s\">WooCommerce POS Pro %2$s or higher</a>. Please <a href=\"%3$s\">install and activate WooCommerce POS Pro</a>"
+msgstr "<strong>WooCommerce POS</strong> requiere <a href=\"%1$s\">WooCommerce POS Pro %2$s o superior</a>. Por favor, <a href=\"%3$s\">instala y activa WooCommerce POS Pro</a>."
+
+#. translators: wordpress
+#: includes/Admin/Plugins.php:79
+msgid "Important:"
+msgstr "Importante:"
+
+#. translators: wordpress
+#: includes/Admin/Menu.php:140 includes/Admin/Menu.php:142
+#: includes/Admin/Plugins.php:36
+msgid "Settings"
+msgstr "Ajustes"
+
+#: includes/Admin/Permalink.php:66
+msgctxt "Permalink setting, eg: /pos"
+msgid "POS base"
+msgstr "Base del TPV"
+
+#: includes/Admin/Orders/List_Orders.php:35
+msgid "Online"
+msgstr "Online"
+
+#: includes/Admin/Menu.php:151 includes/Admin/Products/Single_Product.php:40
+#: includes/Admin/Products/Single_Product.php:107
+msgid "Upgrade to Pro"
+msgstr "Actualizar a Pro"
+
+#: includes/Admin/Menu.php:131 includes/Admin/Menu.php:132
+msgid "View POS"
+msgstr "Ver TPV"
+
+#: includes/Admin/Menu.php:102 includes/Admin/Menu.php:121
+#: includes/Admin/Menu.php:122 includes/Admin/Orders/List_Orders.php:34
+msgid "POS"
+msgstr "TPV"

@@ -1,0 +1,973 @@
+/**
+ * @version    1.0.0
+ * @package    Moorabi
+ * @license    GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html
+ */
+.moorabi-pinmap {
+    position: relative;
+}
+
+.moorabi-pinmap .popover {
+    max-width: inherit;
+    padding: 0;
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    line-break: auto;
+    text-align: inherit;
+    white-space: inherit;
+    font-size: inherit;
+    border-radius: inherit;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+}
+
+.moorabi-pinmap .popover-content {
+    padding: 0;
+}
+
+.moorabi-pinmap img,
+.moorabi-pinmap .mask {
+    transition: all .3s;
+}
+
+.moorabi-pinmap > img {
+    width: 100%;
+}
+
+.moorabi-pinmap .mask {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, .5);
+    opacity: 0;
+}
+
+.moorabi-pinmap .moorabi-pin:hover {
+    z-index: 3;
+}
+
+.moorabi-pinmap .moorabi-pin {
+    position: absolute;
+    z-index: 2;
+}
+
+.moorabi-pinmap .moorabi-pin.actived {
+    z-index: 10;
+}
+
+.moorabi-pinmap .moorabi-pin .popover.right > .arrow {
+    border-right-color: transparent;
+}
+
+.moorabi-pinmap .moorabi-pin .action-pin {
+    cursor: pointer;
+}
+
+.moorabi-pinmap .moorabi-pin .icon-pin {
+    cursor: pointer;
+    color: #fff;
+    background: #ff3535;
+    border-radius: 50%;
+    z-index: 10;
+    display: block;
+    text-align: center;
+    transition: all .3s;
+    font-size: 20px;
+    width: 24px;
+    line-height: 24px;
+}
+
+.moorabi-pinmap .moorabi-pin .icon-pin:before {
+    display: block;
+}
+
+.moorabi-pinmap .moorabi-pin .icon-pin.rotate:hover {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.moorabi-pinmap .moorabi-pin .icon-pin.scale:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.moorabi-pinmap .moorabi-pin .icon-pin.fade:after {
+    top: 0;
+    left: 0;
+    padding: 0;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    content: '';
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+.moorabi-pinmap .moorabi-pin .icon-pin.fade:hover:after {
+    -webkit-animation: sonarEffect .6s ease-out 75ms;
+    -moz-animation: sonarEffect .6s ease-out 75ms;
+    animation: sonarEffect .6s ease-out 75ms;
+}
+
+@-webkit-keyframes sonarEffect {
+    0% {
+        opacity: 0.3;
+    }
+
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #fff, 0 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+
+    100% {
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #fff, 0 0 0 10px rgba(255, 255, 255, 0.5);
+        -webkit-transform: scale(1.5);
+        opacity: 0;
+    }
+}
+
+@keyframes sonarEffect {
+    0% {
+        opacity: 0.3;
+    }
+
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #fff, 0 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+
+    100% {
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #fff, 0 0 0 10px rgba(255, 255, 255, 0.5);
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+
+.moorabi-pinmap .moorabi-pin .moorabi-title {
+    background: #fff;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .13);
+    border-radius: 3px;
+    font-size: 14px;
+    line-height: 38px;
+    padding: 0 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    white-space: nowrap;
+    margin: 0;
+    top: -65px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.moorabi-pinmap .moorabi-pin .moorabi-title:before {
+    content: '';
+    position: absolute;
+    border: 6px solid transparent;
+    border-top: 6px solid #fff;
+    bottom: -12px;
+    left: calc(50% - 6px);
+}
+
+.moorabi-pinmap .moorabi-pin .moorabi-link:hover ~ .moorabi-title,
+.moorabi-pinmap .moorabi-pin .icon-pin:hover ~ .moorabi-title {
+    opacity: 1;
+    visibility: visible;
+    top: -55px;
+}
+
+.moorabi-pinmap.dark .moorabi-pin .moorabi-title {
+    background: #3d3d3d;
+    color: #eee;
+    border-color: rgba(255, 255, 255, .1);
+}
+
+.moorabi-pinmap.dark .moorabi-pin .moorabi-title:before {
+    border-top-color: #3d3d3d;
+}
+
+.moorabi-pinmap .moorabi-popup-tooltip {
+    display: none !important;
+}
+
+.moorabi-pinmap.light .moorabi-pin .moorabi-popup {
+    background: #fff;
+}
+
+.moorabi-pinmap.dark .moorabi-pin .moorabi-popup {
+    background: #3d3d3d;
+}
+
+.moorabi-pinmap .moorabi-pin .moorabi-wc {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.moorabi-pinmap .moorabi-pin.open .moorabi-popup {
+    opacity: 1;
+    visibility: visible;
+}
+
+.moorabi-pinmap .remove-redirect.moorabi-popup:before {
+    display: none;
+}
+
+.moorabi-pinmap .moorabi-pin .moorabi-popup-header .close-modal:hover,
+.moorabi-pinmap .moorabi-pin .moorabi-popup-header h2 a:hover,
+.moorabi-pinmap.dark .moorabi-pin .moorabi-popup-header h2 a:hover {
+    color: #ffa749;
+}
+
+.moorabi-pinmap.dark .moorabi-pin .moorabi-popup-header,
+.moorabi-pinmap.dark .moorabi-pin .moorabi-popup-footer,
+.moorabi-pinmap.dark .moorabi-pin .moorabi-popup-footer a:first-child {
+    border-color: rgba(255, 255, 255, .1);
+}
+
+.moorabi-pinmap.dark .moorabi-pin .moorabi-popup-header h2,
+.moorabi-pinmap.dark .moorabi-pin .moorabi-popup-header h2 a,
+.moorabi-pinmap.dark .moorabi-pin .moorabi-popup-main,
+.moorabi-pinmap.dark .moorabi-pin .moorabi-popup-main p,
+.moorabi-pinmap.dark .moorabi-pin .moorabi-popup-footer a {
+    color: #eee;
+}
+
+.moorabi-pinmap .moorabi-pin .moorabi-popup-header h2 {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.4;
+    padding-right: 15px;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.rtl .moorabi-pinmap .moorabi-pin .moorabi-popup-header h2 {
+    padding: 0 0 0 15px;
+}
+
+.moorabi-pinmap .moorabi-pin .moorabi-popup-header h2 a {
+    color: #383838;
+}
+
+.moorabi-pinmap .moorabi-pin .moorabi-image .moorabi-popup-header h2 {
+    line-height: 20px;
+}
+
+.moorabi-pinmap .moorabi-pin .moorabi-image .moorabi-popup-main img {
+    max-height: 100%;
+}
+
+.moorabi-pinmap .moorabi-pin .moorabi-image .moorabi-popup-main {
+    text-align: center;
+}
+
+.moorabi-pinmap .moorabi-pin .moorabi-wc-price .amount {
+    font-size: 13px;
+}
+
+.moorabi-pinmap .moorabi-pin .moorabi-wc-price del .amount {
+    color: #999;
+}
+
+.moorabi-pinmap .moorabi-pin .moorabi-wc-price ins {
+    background: none;
+}
+
+.moorabi-pinmap .moorabi-pin .moorabi-popup-main {
+    font-size: 13px;
+    color: #777;
+    padding: 10px;
+}
+
+.moorabi-pinmap .moorabi-pin .moorabi-wc .moorabi-popup-main {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px;
+}
+
+.moorabi-pinmap .moorabi-pin .moorabi-popup .moorabi-wc-info .moorabi-wc-price,
+.moorabi-pinmap .moorabi-pin .moorabi-popup-main > [class*="col-"] {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.moorabi-pinmap .moorabi-pin .moorabi-popup-main > .moorabi-product-thumbnail {
+    -ms-flex-preferred-size: 90px;
+    -webkit-flex-basis: 90px;
+    flex-basis: 90px;
+}
+
+.moorabi-pinmap .moorabi-pin .moorabi-popup-main > .moorabi-product-thumbnail + .col-right {
+    margin-left: 10px;
+    -ms-flex-preferred-size: calc(100% - 110px);
+    -webkit-flex-basis: calc(100% - 110px);
+    flex-basis: calc(100% - 110px);
+}
+
+.moorabi-pinmap .moorabi-pin .moorabi-popup-footer .add_to_cart_button.loading i:before {
+    content: "\e900";
+    top: 2px;
+    display: inline-block;
+    -webkit-animation: rotation 1s linear infinite;
+    animation: rotation 1s linear infinite;
+}
+
+@-webkit-keyframes rotation {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    50% {
+        -webkit-transform: rotate(180deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.moorabi-pinmap .moorabi-pin .moorabi-popup-footer a.added_to_cart {
+    display: none;
+}
+
+.moorabi-pinmap .moorabi-pin .moorabi-popup .moorabi-wc-info,
+.moorabi-pinmap .moorabi-pin .moorabi-popup .woocommerce-product-rating {
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+}
+
+.moorabi-pinmap .moorabi-pin .moorabi-popup .star-rating {
+    font-family: "FontAwesome";
+    font-size: 10px;
+    height: 20px;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    width: 6.2em;
+    letter-spacing: 3px;
+    display: block;
+    margin: 0 auto;
+}
+
+.moorabi-pinmap .moorabi-pin .moorabi-popup .star-rating:before,
+.moorabi-pinmap .moorabi-pin .moorabi-popup .star-rating span:before {
+    content: "\f005\f005\f005\f005\f005";
+    left: 0;
+    top: 0;
+    position: absolute;
+    font-size: 10px;
+}
+
+.moorabi-pinmap .moorabi-pin .moorabi-popup .star-rating:before {
+    color: #e2e2e2;
+}
+
+.moorabi-pinmap .moorabi-pin .moorabi-popup .star-rating span {
+    overflow: hidden;
+    position: absolute;
+    text-indent: -999em;
+}
+
+.moorabi-pinmap .moorabi-pin .moorabi-popup .star-rating span:before {
+    color: #ffbc5b;
+    text-indent: 0;
+}
+
+.moorabi-pinmap .moorabi-pin .moorabi-popup-footer a {
+    display: block;
+    border: 0;
+    border-top: 1px solid #e5e5e5;
+    position: absolute;
+    font-size: 14px;
+    text-align: center;
+    height: 56px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    border-radius: 0 0 3px 3px;
+    font-style: normal;
+    background: #fff;
+    line-height: 54px;
+    padding: 0;
+    color: #383838;
+    text-transform: none;
+}
+
+.moorabi-pinmap .moorabi-pin .moorabi-popup-footer a:hover {
+    background: #ffa749;
+    border-color: #ffa749;
+    color: #fff;
+}
+
+.moorabi-pinmap .moorabi-pin .moorabi-popup-footer a i {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.moorabi-pinmap .woocommerce-product-rating {
+    font-size: 13px;
+}
+
+.moorabi-pinmap .moorabi-pin .moorabi-link {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.moorabi-pinmap .moorabi-pinmap-close {
+    display: none;
+}
+
+@media (min-width: 1024px) {
+    .shortcode-pinmap-builder .content-builder {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+}
+
+body .moorabi-pinmap .moorabi-pin .moorabi-popup-header h2 {
+    text-align: left;
+}
+
+body .moorabi-pinmap .moorabi-pin .moorabi-popup .moorabi-wc-info {
+    overflow: hidden;
+}
+
+body .moorabi-pinmap .moorabi-pin .moorabi-popup .moorabi-wc-info .moorabi-wc-price {
+    display: inline-block;
+    text-align: left;
+}
+
+body .moorabi-pinmap .moorabi-pin .moorabi-popup .woocommerce-product-rating {
+    display: inline-block;
+    float: right;
+    margin: 0;
+    line-height: 27px;
+}
+
+body .moorabi-pinmap .moorabi-pin .moorabi-wc .moorabi-popup-main p {
+    text-align: left;
+}
+
+body .moorabi-pinmap .text__area {
+    text-align: center;
+}
+
+@media (max-width: 640px) {
+    .moorabi-pinmap .moorabi-pin {
+        display: none;
+    }
+}
+
+/* New style */
+
+/*
+tối ưu với height 115px
+*/
+
+@-webkit-keyframes doublePulse {
+    0% {
+        -webkit-transform: scale(.6);
+        transform: scale(.6);
+        opacity: 1
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 0
+    }
+}
+
+@keyframes doublePulse {
+    0% {
+        -webkit-transform: scale(.6);
+        transform: scale(.6);
+        opacity: 1
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 0
+    }
+}
+
+.shortcode-pinmap-builder {
+    display: inline-block;
+}
+
+.shortcode-pinmap-builder .moorabi-pin .icon-theme span {
+    cursor: pointer;
+    display: block;
+    width: 33px;
+    height: 33px;
+    line-height: 27px;
+    font-size: 20px;
+    color: #ffffff;
+    background: #ff3535;
+    border-radius: 50%;
+    border-style: solid;
+    text-align: center;
+}
+
+.shortcode-pinmap-builder .moorabi-pin .icon-theme span::before {
+    font-family: FontAwesome, sans-serif;
+    content: "\f067";
+}
+
+.shortcode-pinmap-builder .moorabi-pin .content-text::after {
+    content: '';
+    display: block;
+    position: absolute;
+    transition: all 300ms linear 0s;
+}
+
+.shortcode-pinmap-builder .moorabi-pin.open .content-text::after,
+.shortcode-pinmap-builder .moorabi-pin.open .content-text::before {
+    background: #0084ff;
+}
+
+.shortcode-pinmap-builder .moorabi-pin .moorabi-text .moorabi-popup-main {
+    padding: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.shortcode-pinmap-builder .moorabi-pin .moorabi-text .content-text {
+    position: relative;
+    text-transform: uppercase;
+    color: #0084ff;
+    font-size: 14px;
+    white-space: pre-wrap;
+}
+
+.shortcode-pinmap-builder .moorabi-pin.open .moorabi-text::before {
+    background: #0084ff;
+}
+
+.shortcode-pinmap-builder .moorabi-pin .moorabi-text::before {
+    content: '';
+    display: block;
+    transition: all 300ms linear 0s;
+    transition-duration: 150ms;
+    position: absolute;
+    border: none !important;
+    margin: 0;
+}
+
+@media (min-width: 901px) {
+
+    .shortcode-pinmap-builder .moorabi-pin .content-text::before {
+        content: '';
+        display: block;
+        width: 8px;
+        height: 8px;
+        border-radius: 100%;
+        position: absolute;
+        bottom: -8px;
+        right: 32px;
+        transition: all 300ms linear 0s;
+    }
+
+    .shortcode-pinmap-builder .moorabi-pin .moorabi-text {
+        background: transparent !important;
+        border: none !important;
+        box-shadow: none !important;
+        padding: 0 !important;
+    }
+
+    .shortcode-pinmap-builder .moorabi-pin .moorabi-text.left,
+    .shortcode-pinmap-builder .moorabi-pin .moorabi-text.right {
+        min-height: 115px !important;
+    }
+
+    .shortcode-pinmap-builder .moorabi-pin .moorabi-text.bottom,
+    .shortcode-pinmap-builder .moorabi-pin .moorabi-text.bottom .content-text,
+    .shortcode-pinmap-builder .moorabi-pin .moorabi-text.top,
+    .shortcode-pinmap-builder .moorabi-pin .moorabi-text.top .content-text {
+        width: 230px !important;
+        text-align: right;
+    }
+
+    .shortcode-pinmap-builder .moorabi-text.left .content-text::before {
+        left: 32px;
+    }
+
+    .shortcode-pinmap-builder .moorabi-pin .moorabi-text.right .content-text::after,
+    .shortcode-pinmap-builder .moorabi-pin .moorabi-text.left .content-text::after {
+        width: 2px;
+        height: calc(100% + 2px);
+        top: 33px;
+        left: 35px;
+    }
+
+    .shortcode-pinmap-builder .moorabi-pin .moorabi-text.right .content-text::after {
+        right: 35px;
+        left: auto;
+    }
+
+    .shortcode-pinmap-builder .moorabi-pin .moorabi-text.top .content-text::after,
+    .shortcode-pinmap-builder .moorabi-pin .moorabi-text.bottom .content-text::after {
+        height: 2px;
+        width: calc(50% - 33px);
+        position: absolute;
+        top: 27px;
+        right: 35px;
+    }
+
+    .shortcode-pinmap-builder .moorabi-pin .moorabi-text.bottom .moorabi-popup-main {
+        right: 0;
+        bottom: 0;
+    }
+
+    .shortcode-pinmap-builder .moorabi-pin .moorabi-text.top .moorabi-popup-main {
+        right: 0;
+        top: 0;
+    }
+
+    .shortcode-pinmap-builder .moorabi-pin .moorabi-text.top .moorabi-popup-main .content-text,
+    .shortcode-pinmap-builder .moorabi-pin .moorabi-text.right .moorabi-popup-main .content-text,
+    .shortcode-pinmap-builder .moorabi-pin .moorabi-text.bottom .moorabi-popup-main .content-text {
+        float: right;
+    }
+
+    .shortcode-pinmap-builder .moorabi-pin .moorabi-text.left .moorabi-popup-main .content-text {
+        float: left;
+    }
+
+    .shortcode-pinmap-builder .moorabi-pin .moorabi-text.left .moorabi-popup-main {
+        left: 0;
+        top: 0;
+    }
+
+    .shortcode-pinmap-builder .moorabi-pin .moorabi-text.right .moorabi-popup-main {
+        right: 0;
+        top: 0;
+    }
+
+    .shortcode-pinmap-builder .moorabi-pin .moorabi-text.left::before,
+    .shortcode-pinmap-builder .moorabi-pin .moorabi-text.right::before {
+        height: 2px;
+        width: 0;
+        top: 50% !important;
+    }
+
+    .shortcode-pinmap-builder .moorabi-pin .moorabi-text.top::before,
+    .shortcode-pinmap-builder .moorabi-pin .moorabi-text.bottom::before {
+        width: 2px;
+        height: 0;
+        left: 50%;
+        bottom: calc(0% - 8px) !important;
+    }
+
+    .shortcode-pinmap-builder .moorabi-text.left .text__area::before {
+        right: 100%;
+    }
+
+    .shortcode-pinmap-builder .moorabi-text.right .text__area::before {
+        left: 100%;
+    }
+
+    .shortcode-pinmap-builder .moorabi-pin.open .moorabi-text.top::before {
+        height: calc(100% - 19px);
+    }
+
+    .shortcode-pinmap-builder .moorabi-pin.open .moorabi-text.bottom::before {
+        height: calc(100% + 20px);
+    }
+
+    .shortcode-pinmap-builder .moorabi-pin.open .moorabi-text.left::before,
+    .shortcode-pinmap-builder .moorabi-pin.open .moorabi-text.right::before {
+        width: calc(100% - 20px);
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 901px) {
+    .shortcode-pinmap-builder .moorabi-pin .content-text::after,
+    .shortcode-pinmap-builder .moorabi-pin .content-text::before {
+        background: #0084ff;
+    }
+
+    .shortcode-pinmap-builder .moorabi-pin .moorabi-text::before {
+        background: #0084ff;
+    }
+
+    .shortcode-pinmap-builder .moorabi-pin .moorabi-text.top::before {
+        height: calc(100% - 22px);
+    }
+
+    .shortcode-pinmap-builder .moorabi-pin .moorabi-text.bottom::before {
+        height: calc(100% + 24px);
+    }
+
+    .shortcode-pinmap-builder .moorabi-pin .moorabi-text.left::before,
+    .shortcode-pinmap-builder .moorabi-pin .moorabi-text.right::before {
+        width: calc(100% - 20px);
+    }
+}
+
+@media (max-width: 900px) {
+    .shortcode-pinmap-builder .moorabi-pin {
+        display: block !important;
+    }
+
+    .shortcode-pinmap-builder .moorabi-pin .popover {
+        display: none !important;
+    }
+
+    .moorabi-pin .text__area {
+        width: 25px !important;
+        height: 25px !important;
+        line-height: 25px !important;
+    }
+
+    .shortcode-pinmap-builder .moorabi-pin .moorabi-popup-main {
+        padding: 0;
+    }
+
+    .shortcode-pinmap-builder .moorabi-pin .moorabi-text {
+        width: 130px !important;
+        height: 60px !important;
+        min-height: 0 !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+    }
+}
+
+.d-none {
+    display: none !important;
+}
+
+.popover.top > .arrow::after {
+    bottom: 2px !important;
+}
+
+/*----- STYLE LINE -----*/
+.moorabi-pinmap .moorabi-pin.text.text-line .action-pin {
+    z-index: 2;
+}
+
+.moorabi-pinmap .moorabi-pin.text.text-line .arrow {
+    display: none !important;
+}
+
+.moorabi-pinmap .moorabi-pin.text.text-line .popover {
+    margin: 0;
+    position: absolute;
+}
+
+.moorabi-pinmap .moorabi-pin.text.text-line .moorabi-popup {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+/* direction */
+.moorabi-pinmap .moorabi-pin.text.text-line .popover {
+    top: auto !important;
+    bottom: auto !important;
+    left: auto !important;
+    right: auto !important;
+}
+
+.moorabi-pinmap .moorabi-pin.text.text-line .popover::before {
+    position: absolute;
+    content: '';
+    border-style: solid;
+    border-color: #000;
+    width: 2px;
+    height: 100%;
+    border-width: 0 0 0 2px;
+}
+
+.moorabi-pinmap .moorabi-pin.text.text-line .popover::after {
+    position: absolute;
+    content: '';
+    border-style: solid;
+    border-color: #000;
+    width: 100%;
+    height: 2px;
+    border-width: 2px 0 0 0;
+}
+
+.moorabi-pinmap .moorabi-pin.text.text-line .popover-content::after {
+    position: absolute;
+    content: '';
+    width: 6px;
+    height: 6px;
+    border: 3px solid #000;
+    border-radius: 50%;
+}
+
+.moorabi-pinmap .moorabi-pin.text.text-line .moorabi-popup-main {
+    position: absolute;
+    white-space: nowrap;
+    padding: 0;
+}
+
+/* top */
+.moorabi-pinmap .moorabi-pin.text.text-line.position-top .popover {
+    bottom: 50% !important;
+    left: 50% !important;
+}
+
+.moorabi-pinmap .moorabi-pin.text.text-line.position-top .popover::before {
+    bottom: 0;
+    left: -1px;
+}
+
+.moorabi-pinmap .moorabi-pin.text.text-line.position-top .popover::after {
+    top: -1px;
+    left: -1px;
+}
+
+.moorabi-pinmap .moorabi-pin.text.text-line.position-top .popover-content::after {
+    top: -3px;
+    right: -3px;
+}
+
+.moorabi-pinmap .moorabi-pin.text.text-line.position-bottom .moorabi-popup-main,
+.moorabi-pinmap .moorabi-pin.text.text-line.position-top .moorabi-popup-main {
+    left: calc(100% + 10px);
+    top: 0;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/* bottom */
+.moorabi-pinmap .moorabi-pin.text.text-line.position-bottom .popover {
+    top: 50% !important;
+    left: 50% !important;
+}
+
+.moorabi-pinmap .moorabi-pin.text.text-line.position-bottom .popover::before {
+    top: 0;
+    left: -1px;
+}
+
+.moorabi-pinmap .moorabi-pin.text.text-line.position-bottom .popover::after {
+    left: -1px;
+    bottom: -1px;
+}
+
+.moorabi-pinmap .moorabi-pin.text.text-line.position-bottom .popover-content::after {
+    bottom: -3px;
+    right: -3px;
+}
+
+.moorabi-pinmap .moorabi-pin.text.text-line.position-bottom .moorabi-popup-main {
+    top: 100%;
+}
+
+/* left */
+.moorabi-pinmap .moorabi-pin.text.text-line.position-left .popover {
+    bottom: 50% !important;
+    right: 50% !important;
+}
+
+.moorabi-pinmap .moorabi-pin.text.text-line.position-left .popover::before {
+    left: -1px;
+    bottom: -1px;
+}
+
+.moorabi-pinmap .moorabi-pin.text.text-line.position-left .popover::after {
+    right: 0;
+    bottom: -1px;
+}
+
+.moorabi-pinmap .moorabi-pin.text.text-line.position-left .popover-content::after {
+    top: -3px;
+    left: -3px;
+}
+
+.moorabi-pinmap .moorabi-pin.text.text-line.position-right .moorabi-popup-main,
+.moorabi-pinmap .moorabi-pin.text.text-line.position-left .moorabi-popup-main {
+    bottom: calc(100% + 10px);
+    left: 0;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+/* right */
+.moorabi-pinmap .moorabi-pin.text.text-line.position-right .popover {
+    bottom: 50% !important;
+    left: 50% !important;
+}
+
+.moorabi-pinmap .moorabi-pin.text.text-line.position-right .popover::before {
+    right: -1px;
+    bottom: -1px;
+}
+
+.moorabi-pinmap .moorabi-pin.text.text-line.position-right .popover::after {
+    left: 0;
+    bottom: -1px;
+}
+
+.moorabi-pinmap .moorabi-pin.text.text-line.position-right .popover-content::after {
+    top: -3px;
+    right: -3px;
+}
+
+.moorabi-pinmap .moorabi-pin.text.text-line.position-right .moorabi-popup-main {
+    left: 100%;
+}

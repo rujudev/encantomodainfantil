@@ -1,0 +1,1247 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Moorabi Toolkit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-06 10:08+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.4; wp-6.2\n"
+"X-Domain: moorabi-toolkit"
+
+#: includes/dreaming-woocommerce-compare/templates/compare-table.php:53
+msgid "  ---  "
+msgstr ""
+
+#: includes/mapper/includes/post-type.php:67
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: includes/admin/welcome.php:221
+msgid "Activate"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/templates/compare-table.php:41
+msgid "Add more"
+msgstr ""
+
+#: includes/mapper/includes/post-type.php:62
+msgid "Add New"
+msgstr ""
+
+#: includes/mapper/includes/post-type.php:63
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/templates/compare-table.php:58
+msgid "Add products"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/class.dreaming-wc-helper.php:130
+msgid "Add to cart"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/class.dreaming-wc-frontend.php:240
+#: includes/dreaming-woocommerce-compare/includes/class.dreaming-wc-frontend.php:599
+msgid "Add to compare"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:186
+msgid "Add your image mapping"
+msgstr ""
+
+#: includes/mapper/includes/shortcode.php:108
+msgid "Add your title in backend"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/class.dreaming-wc-frontend.php:162
+msgid "Added to compare"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/menu-scripts-styles.php:69
+msgid ""
+"All current settings will be overwritten and CAN NOT BE UNDONE! Are you sure "
+"you want to import settings?"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/backend.php:201
+msgid "All settings imported. Reloading the page..."
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/backend.php:34
+msgid "All settings saved"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-attribute-product.php:109
+#: includes/frontend/includes/widgets/widget-attribute-product.php:173
+msgid "AND"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-attribute-product.php:293
+#, php-format
+msgid "Any %s"
+msgstr ""
+
+#: includes/mapper/includes/post-type.php:223
+msgid "Are you sure you want to remove this pin?"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:382
+msgid "Area Text"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-post.php:65
+msgid "ASC"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-attribute-product.php:156
+msgid "Attribute"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-post.php:52
+msgid "Author"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/class.dreaming-wc-helper.php:134
+msgid "Availability"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:475
+msgid "Background"
+msgstr ""
+
+#: includes/megamenu/templates/form-settings.php:198
+msgid "Background Position"
+msgstr ""
+
+#: includes/admin/welcome.php:145
+msgid ""
+"Before importing the demo content ensure that you have Installed and "
+"Activated all the plugins"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:145
+msgid "Blur"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:482
+msgid "Border Color"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:464
+msgid "Border Radius"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:455
+msgid "Border Width"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:525
+#: includes/megamenu/templates/form-settings.php:221
+msgid "Bottom"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/backend.php:205
+msgid "Can't find moved file!!!"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/backend.php:210
+msgid "Can't move file!!!"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-post.php:39
+msgid "Category"
+msgstr ""
+
+#: includes/megamenu/templates/form-settings.php:205
+msgid "Center"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:177
+#: includes/mapper/includes/templates.php:198
+msgid "Change Image"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/backend.php:18
+#: includes/dreaming-woocommerce-compare/includes/backend.php:104
+#: includes/dreaming-woocommerce-compare/includes/backend.php:128
+msgid "Cheating!? Huh?"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/admin-pages/dreaming-wccp.php:62
+msgid "Check it if you want to show the button in the products list"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/admin-pages/dreaming-wccp.php:80
+msgid "Check it if you want to show the button in the single product page"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/admin-pages/dreaming-wccp.php:97
+msgid ""
+"Check it if you want to show the panel when adding products to the comparison"
+msgstr ""
+
+#: includes/megamenu/templates/form-settings.php:71
+msgid "Class Megamenu Responsive"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/templates/compare-products-list.php:22
+msgid "Clear"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:73
+msgid "Click"
+msgstr ""
+
+#: includes/megamenu/templates/form-settings.php:21
+msgid ""
+"Click \"Enable Mega Builder\" in the Settings tab before building content."
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/templates/add-products-form.php:31
+#: includes/dreaming-woocommerce-compare/templates/add-products-form.php:32
+#: includes/dreaming-woocommerce-compare/templates/compare-products-list.php:16
+msgid "Close"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-attribute-product.php:100
+msgid "Color"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-post.php:56
+msgid "Comment count"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/class.dreaming-wc-frontend.php:163
+msgid "Compare"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/admin-pages/dreaming-wccp.php:90
+msgid "Compare bottom panel"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/admin-pages/dreaming-wccp.php:47
+msgid "Compare Page"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/admin-pages/dreaming-wccp.php:119
+msgid "Compare page image size"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/templates/compare-products-list.php:15
+msgid "Compare Products"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/admin-pages/dreaming-wccp.php:15
+msgid "Compare Table"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/admin-pages/dreaming-wccp.php:144
+msgid "Compare what?"
+msgstr ""
+
+#: includes/megamenu/templates/form-settings.php:57
+msgid "Content"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:165
+msgid "Copy Shortcode"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/class.dreaming-wc-helper.php:233
+msgid "Custom hook (dreaming_wccp_shop_loop)"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/class.dreaming-wc-helper.php:197
+msgid "Custom hook (dreaming_wccp_single_product)"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:86
+msgid "Dark"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-post.php:50
+msgid "Date"
+msgstr ""
+
+#: includes/admin/welcome.php:234
+msgid "Deactivate"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:329
+#: includes/mapper/includes/templates.php:359
+msgid "Default"
+msgstr ""
+
+#: includes/frontend/includes/woo-function.php:76
+msgid "Degree"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-post.php:64
+msgid "DESC"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/class.dreaming-wc-helper.php:137
+msgid "Description"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-newsletter.php:32
+msgid "Description:"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/class.dreaming-wc-helper.php:136
+msgid "Dimensions"
+msgstr ""
+
+#: includes/megamenu/templates/form-settings.php:142
+msgid "Disable link"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-newsletter.php:38
+msgid "Display the customer Newsletter."
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-post.php:77
+msgid "Display the customer Post."
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-socials.php:46
+msgid "Display the customer Socials."
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-attribute-product.php:162
+msgid "Display type"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-attribute-product.php:94
+msgid "Display type:"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/admin-pages/dreaming-wccp.php:36
+msgid "Dreaming Compare Settings"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-attribute-product.php:99
+#: includes/frontend/includes/widgets/widget-attribute-product.php:165
+msgid "Dropdown"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:211
+msgid "Duplicate Pin"
+msgstr ""
+
+#: includes/megamenu/templates/form-settings.php:114
+msgid "Edit"
+msgstr ""
+
+#: includes/mapper/includes/post-type.php:65
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: includes/footer-builder/footer-builder.php:99
+msgid "Edit Footer"
+msgstr ""
+
+#: includes/megamenu/templates/form-settings.php:112
+msgid "Edit this selected megamenu in new window."
+msgstr ""
+
+#: includes/mapper/includes/templates.php:21
+msgid "EDITOR"
+msgstr ""
+
+#: includes/megamenu/templates/form-settings.php:83
+msgid "Enable Mega"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/backend.php:151
+msgid "Exceeded filesize limit."
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/admin-pages/dreaming-wccp.php:157
+#: includes/dreaming-woocommerce-compare/includes/admin-pages/dreaming-wccp.php:159
+msgid "Export Settings"
+msgstr ""
+
+#: includes/frontend/includes/woo-function.php:102
+msgid "Facebook"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:102
+msgid "Fade In"
+msgstr ""
+
+#: includes/megamenu/templates/form-settings.php:78
+msgid "Field empty value is default ( .moorabi-menu-wapper )"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-attribute-product.php:54
+#: includes/frontend/includes/widgets/widget-attribute-product.php:151
+msgid "Filter by"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:75
+msgid "Focus"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:417
+msgid "Font Size"
+msgstr ""
+
+#: includes/megamenu/templates/icon-fonts.php:1049
+msgid "Fonts Custom"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:224
+msgid "General"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:33
+#: includes/mapper/includes/templates.php:38
+#: includes/dreaming-woocommerce-compare/includes/admin-pages/dreaming-wccp.php:14
+msgid "General Settings"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:146
+msgid "Gray"
+msgstr ""
+
+#: includes/admin/import/import.php:214
+msgid "HAVE IMPORTED"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:62
+#: includes/mapper/includes/templates.php:446
+#: includes/mapper/includes/templates.php:511
+msgid "Height"
+msgstr ""
+
+#: includes/megamenu/templates/form-settings.php:124
+msgid "Hide title"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:74
+msgid "Hover"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:225
+#: includes/megamenu/templates/form-settings.php:231
+msgid "Icon Settings"
+msgstr ""
+
+#: includes/megamenu/templates/form-settings.php:50
+msgid "Icons"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-post.php:51
+msgid "ID"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/class.dreaming-wc-helper.php:129
+#: includes/mapper/includes/post-type.php:139
+#: includes/mapper/includes/templates.php:243
+#: includes/mapper/includes/templates.php:389
+msgid "Image"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:46
+msgid "Image Effect"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:141
+msgid "Image effect"
+msgstr ""
+
+#: includes/admin/import/import.php:246
+msgid "Import content"
+msgstr ""
+
+#: includes/admin/welcome.php:28
+msgid "Import Data"
+msgstr ""
+
+#: includes/admin/import/import.php:114
+msgid "Import Demo"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/admin-pages/dreaming-wccp.php:160
+msgid "Import Settings"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/admin-pages/dreaming-wccp.php:16
+msgid "Import/Export"
+msgstr ""
+
+#: includes/admin/import/import.php:419
+msgid "Imported"
+msgstr ""
+
+#: includes/admin/import/import.php:422
+msgid "Imported to Inactive"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/class.dreaming-wc-frontend.php:486
+msgid "In stock"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-attribute-product.php:101
+msgid "Inline"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:336
+msgid "Input a title for the popup here..."
+msgstr ""
+
+#: includes/mapper/includes/templates.php:371
+msgid "Input some content for the popup here..."
+msgstr ""
+
+#: includes/admin/welcome.php:191 includes/admin/import/import.php:220
+msgid "Install"
+msgstr ""
+
+#: includes/admin/import/import.php:190
+msgid "Install Demo Content"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/backend.php:136
+msgid "Invalid parameters."
+msgstr ""
+
+#: includes/admin/welcome.php:125
+msgid ""
+"is a modern, clean and professional WooCommerce Wordpress Theme, It is fully "
+"responsive, it looks stunning on all types of screens and devices."
+msgstr ""
+
+#: includes/admin/import/import.php:201
+msgid "It can take a few minutes to complete."
+msgstr ""
+
+#: includes/admin/import/import.php:200
+msgid "It will import all demo contents."
+msgstr ""
+
+#: includes/megamenu/templates/form-settings.php:325
+msgid "Label Settings"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:523
+#: includes/megamenu/templates/form-settings.php:209
+msgid "Left"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:85
+msgid "Light"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:330
+msgid "Line"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:426
+msgid "Line Height"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:257
+msgid "Link"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:350
+msgid "Link To"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-attribute-product.php:98
+#: includes/frontend/includes/widgets/widget-attribute-product.php:164
+msgid "List"
+msgstr ""
+
+#: includes/megamenu/templates/form-settings.php:20
+msgid "LOAD EDITOR"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:152
+msgid "Mask color"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:147
+msgid "Mask Overlay"
+msgstr ""
+
+#: includes/admin/import/import.php:238
+msgid "memory_limit 128M, post_max_size 32M, upload_max_filesize 32M"
+msgstr ""
+
+#: includes/megamenu/templates/form-settings.php:175
+msgid "Menu Background"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-post.php:57
+msgid "Menu order"
+msgstr ""
+
+#: includes/megamenu/templates/form-settings.php:32
+msgid "Menu: "
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-post.php:54
+msgid "Modified"
+msgstr ""
+
+#. Author of the plugin
+msgid "Moorabi"
+msgstr ""
+
+#: includes/frontend/framework.php:71
+msgid "Moorabi Options"
+msgstr ""
+
+#. Name of the plugin
+msgid "Moorabi Toolkit"
+msgstr ""
+
+#: includes/admin/import/import.php:196
+msgid ""
+"Moorabi Toolkit, WooCommerce, Elementor Website Builder and Revolution "
+"Slider plugins."
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-attribute-product.php:24
+msgid "Moorabi: Attribute Product"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-newsletter.php:40
+msgid "Moorabi: Newsletter"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-post.php:79
+msgid "Moorabi: Post"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-socials.php:48
+msgid "Moorabi: Socials"
+msgstr ""
+
+#: includes/mapper/includes/post-type.php:138
+msgid "Name"
+msgstr ""
+
+#: includes/mapper/includes/post-type.php:64
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:360
+msgid "New Tab"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-newsletter.php:28
+msgid "Newsletter"
+msgstr ""
+
+#: includes/mapper/includes/post-type.php:71
+#, php-format
+msgid "No %s found in Trash."
+msgstr ""
+
+#: includes/mapper/includes/post-type.php:70
+#, php-format
+msgid "No %s found."
+msgstr ""
+
+#: includes/admin/import/import.php:296
+msgid "No data import"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/backend.php:145
+msgid "No file sent."
+msgstr ""
+
+#: includes/mapper/includes/post-type.php:165
+msgid "No image"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/class.dreaming-wc-frontend.php:549
+msgid "No products to compare"
+msgstr ""
+
+#: includes/admin/live-search/live-search.php:167
+msgid "No results."
+msgstr ""
+
+#: includes/admin/import/import.php:426
+msgid "No Title"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:101
+#: includes/mapper/includes/templates.php:144
+msgid "None"
+msgstr ""
+
+#: includes/mapper/includes/post-type.php:140
+msgid "Number of Pins"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-attribute-product.php:110
+#: includes/frontend/includes/widgets/widget-attribute-product.php:174
+msgid "OR"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-post.php:67
+msgid "Order"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-post.php:59
+msgid "Orderby"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/backend.php:51
+msgid "Page For Compare"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/admin-pages/dreaming-wccp.php:102
+msgid "Panel image size"
+msgstr ""
+
+#: includes/mapper/includes/post-type.php:69
+#, php-format
+msgid "Parent %s:"
+msgstr ""
+
+#: includes/admin/welcome.php:35 includes/admin/welcome.php:58
+msgid "Permission denied"
+msgstr ""
+
+#: includes/admin/import/import.php:230
+msgid "PHP Version > 5.6, max_execution_time 180"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:17
+msgid "PIN MAP"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:215
+msgid "Pin Settings"
+msgstr ""
+
+#: includes/mapper/includes/post-type.php:58
+#: includes/mapper/includes/post-type.php:59
+#: includes/mapper/includes/post-type.php:60
+#: includes/mapper/includes/post-type.php:61
+msgid "Pinmap"
+msgstr ""
+
+#: includes/frontend/includes/woo-function.php:116
+msgid "Pinterest"
+msgstr ""
+
+#: includes/admin/import/import.php:202
+msgid "Please don't close your browser whileimporting."
+msgstr ""
+
+#: includes/admin/import/import.php:194
+msgid "Please ensure you have already installed and activated"
+msgstr ""
+
+#: includes/admin/live-search/live-search.php:31
+#, php-format
+msgid "Please enter at least %s characters to search"
+msgstr ""
+
+#: includes/mapper/includes/post-type.php:224
+msgid "Please input a title for this pin"
+msgstr ""
+
+#: includes/admin/import/import.php:198
+msgid "Please note that importing data only builds a frame for your website."
+msgstr ""
+
+#: includes/admin/import/import.php:192
+msgid "Please read before importing:"
+msgstr ""
+
+#: includes/admin/welcome.php:27
+msgid "Plugins"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-post.php:32
+msgid "Popular Post"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:130
+msgid "Popup border color"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:114
+msgid "Popup border radius"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:122
+msgid "Popup border width"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:91
+msgid "Popup box shadow"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:226
+msgid "Popup Settings"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:98
+msgid "Popup show effect"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:334
+msgid "Popup title"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:70
+msgid "Popup trigger"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:519
+msgid "Position"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-post.php:72
+msgid "Posts Per Page"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-post.php:35
+msgid "Posts Type"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/class.dreaming-wc-helper.php:132
+msgid "Price"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/templates/compare-table.php:55
+msgid "Product"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-attribute-product.php:83
+msgid "Product attribute:"
+msgstr ""
+
+#: includes/admin/live-search/live-search.php:28
+msgid "Product Matches"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/menu-scripts-styles.php:24
+#: includes/dreaming-woocommerce-compare/includes/menu-scripts-styles.php:25
+msgid "Products Compare"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/admin-pages/dreaming-wccp.php:66
+msgid "Products List Hook"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-attribute-product.php:105
+#: includes/frontend/includes/widgets/widget-attribute-product.php:171
+msgid "Query type"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-post.php:55
+msgid "Random"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-post.php:33
+msgid "Recent Post"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/class.dreaming-wc-frontend.php:571
+#: includes/dreaming-woocommerce-compare/templates/compare-table.php:77
+msgid "Remove"
+msgstr ""
+
+#: includes/megamenu/templates/form-settings.php:190
+#: includes/megamenu/templates/form-settings.php:320
+#: includes/megamenu/templates/form-settings.php:338
+msgid "Remove image"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:209
+msgid "Remove Pin"
+msgstr ""
+
+#: includes/admin/live-search/live-search.php:29
+msgid "Results"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/templates/compare-table.php:125
+msgid "Return to shop"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:522
+#: includes/megamenu/templates/form-settings.php:213
+msgid "Right"
+msgstr ""
+
+#: includes/megamenu/templates/form-settings.php:35
+msgid "Save All"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/admin-pages/dreaming-wccp.php:176
+msgid "Save All Settings"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/templates/add-products-form.php:23
+msgid "Search"
+msgstr ""
+
+#: includes/mapper/includes/post-type.php:68
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: includes/megamenu/templates/form-settings.php:277
+msgid "Search Icon"
+msgstr ""
+
+#: includes/admin/live-search/live-search.php:261
+#: includes/dreaming-woocommerce-compare/templates/add-products-form.php:21
+msgid "Search products"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/backend.php:100
+msgid "Security check error"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/backend.php:24
+msgid "Security check error!"
+msgstr ""
+
+#: includes/admin/live-search/live-search.php:46
+#: includes/dreaming-woocommerce-compare/includes/backend.php:122
+msgid "Security check error!!!"
+msgstr ""
+
+#: includes/mapper/includes/post-type.php:220
+msgid "Select"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-post.php:45
+msgid "Select a category"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:543
+msgid "Select icon"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:341
+#: includes/mapper/includes/templates.php:402
+msgid "Select image"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/admin-pages/dreaming-wccp.php:165
+msgid "Select json file:"
+msgstr ""
+
+#: includes/mapper/includes/post-type.php:221
+msgid "Select or upload an image"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/class.dreaming-wc-helper.php:318
+msgid "Select Page"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:267
+msgid "Select product"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-socials.php:40
+msgid "Select Social"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/admin-pages/dreaming-wccp.php:147
+msgid ""
+"Select the fields to show in the comparison table and order them by "
+"drag&drop (are included also the woocommerce attributes)"
+msgstr ""
+
+#: includes/megamenu/templates/form-settings.php:44
+msgid "Settings"
+msgstr ""
+
+#: includes/frontend/includes/woo-function.php:96
+msgid "Share: "
+msgstr ""
+
+#: includes/mapper/includes/post-type.php:141
+msgid "Shortcode"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/admin-pages/dreaming-wccp.php:55
+msgid "Show button in products list"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/admin-pages/dreaming-wccp.php:73
+msgid "Show button in single product"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:307
+msgid "Show description"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:316
+msgid "Show rate"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:298
+msgid "Show thumbnail"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-attribute-product.php:22
+msgid "Shows a custom attribute in a widget."
+msgstr ""
+
+#: includes/admin/import/import.php:354
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/admin-pages/dreaming-wccp.php:84
+msgid "Single Product Hook"
+msgstr ""
+
+#: includes/admin/import/import.php:367
+msgid "Site does not support widget"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/class.dreaming-wc-helper.php:133
+msgid "Sku"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:106
+msgid "Slide From Bottom"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:103
+msgid "Slide From Left"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:104
+msgid "Slide From Right"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:105
+msgid "Slide From Top"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/backend.php:166
+msgid "Sorry, uploaded file is too large!!!"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:44
+msgid "Style Settings"
+msgstr ""
+
+#: includes/megamenu/templates/form-settings.php:159
+msgid "Sub Menu Item Settings"
+msgstr ""
+
+#: includes/megamenu/templates/form-settings.php:164
+msgid "Sub menu item width (px only)"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:356
+msgid "Target"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:250
+#: includes/mapper/includes/templates.php:412
+msgid "Text"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:489
+msgid "Text Color"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:369
+msgid "Text Content"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:327
+msgid "Text style"
+msgstr ""
+
+#: includes/admin/import/import.php:228
+msgid "The Following Required To Import Content !"
+msgstr ""
+
+#. Description of the plugin
+msgid "The Moorabi Toolkit For WordPress Theme WooCommerce Shop."
+msgstr ""
+
+#: includes/mapper/includes/templates.php:396
+msgid "Theme Style"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/templates/compare-table.php:118
+msgid ""
+"There are no products to compare. You need to add some products to the "
+"comparison list before view."
+msgstr ""
+
+#: includes/admin/import/import.php:193
+msgid ""
+"This importer will help you build your site look like our demo. Importing "
+"data is recommended on fresh install."
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/admin-pages/dreaming-wccp.php:8
+msgid "This plugin required WooCommerce installed and activate"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:282
+msgid "Thumbnail Height"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:273
+msgid "Thumbnail Width"
+msgstr ""
+
+#: includes/mapper/includes/post-type.php:142
+msgid "Time"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/class.dreaming-wc-helper.php:131
+#: includes/frontend/includes/widgets/widget-attribute-product.php:152
+#: includes/frontend/includes/widgets/widget-newsletter.php:27
+#: includes/frontend/includes/widgets/widget-post.php:27
+#: includes/frontend/includes/widgets/widget-post.php:53
+#: includes/frontend/includes/widgets/widget-socials.php:35
+msgid "Title"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-attribute-product.php:76
+msgid "Title:"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-newsletter.php:33
+msgid "To stay up-to-date on our promotions, discounts, sales and more"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:82
+msgid "Tooltip style"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:524
+#: includes/megamenu/templates/form-settings.php:217
+msgid "Top"
+msgstr ""
+
+#: includes/megamenu/templates/form-settings.php:66
+msgid "Top Level Item Settings"
+msgstr ""
+
+#: includes/megamenu/templates/form-settings.php:108
+msgid "Trash"
+msgstr ""
+
+#: includes/megamenu/templates/form-settings.php:106
+msgid "Trash this selected megamenu content."
+msgstr ""
+
+#: includes/frontend/includes/woo-function.php:109
+msgid "Twitter"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/templates/add-products-form.php:18
+msgid "Type keywords to search"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/backend.php:156
+msgid "Unknown errors."
+msgstr ""
+
+#: includes/admin/welcome.php:207
+msgid "Update"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/admin-pages/dreaming-wccp.php:168
+msgid "Upload And Import"
+msgstr ""
+
+#: includes/megamenu/templates/form-settings.php:186
+#: includes/megamenu/templates/form-settings.php:316
+#: includes/megamenu/templates/form-settings.php:334
+msgid "Upload/Add image"
+msgstr ""
+
+#: includes/megamenu/templates/form-settings.php:237
+msgid "Use Font Icon"
+msgstr ""
+
+#: includes/megamenu/templates/form-settings.php:241
+msgid "Use Image"
+msgstr ""
+
+#: includes/frontend/includes/woo-function.php:21
+msgid "Video"
+msgstr ""
+
+#: includes/mapper/includes/post-type.php:66
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: includes/admin/live-search/live-search.php:27
+msgid "View All"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/class.dreaming-wc-helper.php:135
+msgid "Weight"
+msgstr ""
+
+#: includes/admin/welcome.php:26
+msgid "Welcome"
+msgstr ""
+
+#: includes/megamenu/templates/form-settings.php:145
+msgid "Whether to disable item hyperlink or not."
+msgstr ""
+
+#: includes/megamenu/templates/form-settings.php:127
+msgid "Whether to display item without text or not."
+msgstr ""
+
+#: includes/admin/import/import.php:380
+msgid "Widget already exists"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:53
+#: includes/mapper/includes/templates.php:437
+#: includes/mapper/includes/templates.php:503
+msgid "Width"
+msgstr ""
+
+#: includes/mapper/includes/templates.php:236
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/backend.php:174
+msgid "Wrong file extension!!!"
+msgstr ""
+
+#: includes/dreaming-woocommerce-compare/includes/backend.php:194
+msgid "Wrong file format!!!"
+msgstr ""
+
+#: includes/mapper/includes/post-type.php:222
+msgid "Your changes on this page are not saved!"
+msgstr ""
+
+#: includes/admin/import/import.php:234
+msgid "Your Host allow download file from other site and zip file"
+msgstr ""
