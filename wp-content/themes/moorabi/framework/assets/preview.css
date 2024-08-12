@@ -1,0 +1,90 @@
+.product-list-owl .product-item.style-01,
+.product-list-owl .product-item.style-02 {
+    float: left;
+    width: 25%;
+}
+.product-list-owl .product-item.style-03 {
+    float: left;
+    width: 33.3333333%;
+}
+.product-list-owl .product-item.style-04 {
+    float: left;
+    width: 33.3333333%;
+}
+.product-gallery .product-gallery-slick .product-gallery-image ~ .product-gallery-image  {
+    display: none;
+}
+.moorabi-blog.style-01 .blog-list-owl > * {
+    float: left;
+    width: 33.3333333%;
+}
+.moorabi-blog.style-02 .blog-list-owl > * {
+    float: left;
+    width: 50%;
+}
+.moorabi-testimonial.style-02 .testimonial-list-owl > * {
+    float: left;
+    width: 33.3333333%;
+}
+.instagram-list-owl > * {
+    float: left;
+    width: 20%;
+}
+.team-list-owl > * {
+    float: left;
+    width: 33.3333333%;
+}
+@media (max-width: 1199px) {
+    .product-list-owl .product-item.style-01,
+    .product-list-owl .product-item.style-02 {
+        width: 33.3333333%;
+    }
+    .product-list-owl .product-item.style-04 {
+        width: 50%;
+    }
+    .moorabi-testimonial.style-02 .testimonial-list-owl > * {
+        width: 50%;
+    }
+}
+@media (max-width: 991px) {
+    .product-list-owl .product-item.style-01,
+    .product-list-owl .product-item.style-02 {
+        width: 50%;
+    }
+    .product-list-owl .product-item.style-03 {
+        width: 50%;
+    }
+    .product-list-owl .product-item.style-04 {
+        width: 50%;
+    }
+    .moorabi-blog.style-01 .blog-list-owl > * {
+        width: 50%;
+    }
+    .moorabi-blog.style-02 .blog-list-owl > * {
+        width: 100%;
+    }
+    .product-gallery .gallery-dots > * {
+        float: left;
+        width: 33.3333333%;
+    }
+    .team-list-owl > * {
+        width: 50%;
+    }
+}
+@media (max-width: 767px) {
+    .product-list-owl .product-item.style-04 {
+        width: 50%;
+    }
+    .moorabi-testimonial.style-02 .testimonial-list-owl > * {
+        width: 100%;
+    }
+}
+@media (max-width: 479px) {
+    .moorabi-blog.style-02 .blog-list-owl > *,
+    .moorabi-blog.style-01 .blog-list-owl > * {
+        width: 100%;
+    }
+    .team-list-owl > * {
+        width: 100%;
+    }
+}

@@ -1,0 +1,12 @@
+/*
+Theme Name: Moorabi Child
+Template: moorabi
+Author: Moorabi
+Version: 1.0.1.1721925171
+Updated: 2024-07-25 16:32:51
+
+*/
+
+.slick-dots li button:before {
+	content: none !important;
+}

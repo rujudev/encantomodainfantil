@@ -1,0 +1,2051 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Moorabi\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-29 05:05+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.4.2\n"
+"X-Domain: moorabi"
+
+#: framework/includes/woo-functions.php:156
+msgid " Already Sold"
+msgstr ""
+
+#: framework/includes/blog-functions.php:146
+msgid "% Comments"
+msgstr ""
+
+#: framework/includes/blog-functions.php:311
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: framework/includes/blog-functions.php:164
+msgid "(%)"
+msgstr ""
+
+#: framework/includes/blog-functions.php:162
+msgid "(0)"
+msgstr ""
+
+#: framework/includes/blog-functions.php:163
+msgid "(1)"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:46
+msgid "+"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:35
+msgid "-"
+msgstr ""
+
+#: framework/includes/blog-functions.php:245
+msgid "..."
+msgstr ""
+
+#: framework/includes/blog-functions.php:144
+msgid "0 Comments"
+msgstr ""
+
+#: framework/includes/blog-functions.php:145
+msgid "1 Comment"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:585
+#: framework/includes/elementor/blog.php:606
+#: framework/includes/elementor/blog.php:627
+#: framework/includes/elementor/blog.php:648
+#: framework/includes/elementor/blog.php:669
+#: framework/includes/elementor/blog.php:690
+#: framework/includes/elementor/instagram.php:562
+#: framework/includes/elementor/instagram.php:583
+#: framework/includes/elementor/instagram.php:604
+#: framework/includes/elementor/instagram.php:625
+#: framework/includes/elementor/instagram.php:646
+#: framework/includes/elementor/instagram.php:667
+#: framework/includes/elementor/product-tabs.php:682
+#: framework/includes/elementor/product-tabs.php:703
+#: framework/includes/elementor/product-tabs.php:724
+#: framework/includes/elementor/product-tabs.php:745
+#: framework/includes/elementor/product-tabs.php:766
+#: framework/includes/elementor/product-tabs.php:787
+#: framework/includes/elementor/products.php:631
+#: framework/includes/elementor/products.php:652
+#: framework/includes/elementor/products.php:673
+#: framework/includes/elementor/products.php:694
+#: framework/includes/elementor/products.php:715
+#: framework/includes/elementor/products.php:736
+#: framework/includes/elementor/team.php:566
+#: framework/includes/elementor/team.php:587
+#: framework/includes/elementor/team.php:608
+#: framework/includes/elementor/team.php:629
+#: framework/includes/elementor/team.php:650
+#: framework/includes/elementor/team.php:671
+msgid "1 item"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:205
+#: framework/includes/elementor/instagram.php:182
+#: framework/includes/elementor/product-tabs.php:302
+#: framework/includes/elementor/products.php:251
+#: framework/includes/elementor/team.php:186
+#: framework/includes/elementor/testimonial.php:141
+msgid "1 Row"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:235
+#: framework/includes/elementor/blog.php:570
+#: framework/includes/elementor/instagram.php:212
+#: framework/includes/elementor/instagram.php:547
+#: framework/includes/elementor/product-tabs.php:332
+#: framework/includes/elementor/product-tabs.php:667
+#: framework/includes/elementor/products.php:281
+#: framework/includes/elementor/products.php:616
+#: framework/includes/elementor/team.php:216
+#: framework/includes/elementor/team.php:551
+#: framework/includes/elementor/testimonial.php:171
+msgid "100px"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:226
+#: framework/includes/elementor/blog.php:561
+#: framework/includes/elementor/instagram.php:203
+#: framework/includes/elementor/instagram.php:538
+#: framework/includes/elementor/product-tabs.php:323
+#: framework/includes/elementor/product-tabs.php:658
+#: framework/includes/elementor/products.php:272
+#: framework/includes/elementor/products.php:607
+#: framework/includes/elementor/team.php:207
+#: framework/includes/elementor/team.php:542
+#: framework/includes/elementor/testimonial.php:162
+msgid "10px"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:586
+#: framework/includes/elementor/blog.php:607
+#: framework/includes/elementor/blog.php:628
+#: framework/includes/elementor/blog.php:649
+#: framework/includes/elementor/blog.php:670
+#: framework/includes/elementor/blog.php:691
+#: framework/includes/elementor/instagram.php:563
+#: framework/includes/elementor/instagram.php:584
+#: framework/includes/elementor/instagram.php:605
+#: framework/includes/elementor/instagram.php:626
+#: framework/includes/elementor/instagram.php:647
+#: framework/includes/elementor/instagram.php:668
+#: framework/includes/elementor/product-tabs.php:683
+#: framework/includes/elementor/product-tabs.php:704
+#: framework/includes/elementor/product-tabs.php:725
+#: framework/includes/elementor/product-tabs.php:746
+#: framework/includes/elementor/product-tabs.php:767
+#: framework/includes/elementor/product-tabs.php:788
+#: framework/includes/elementor/products.php:632
+#: framework/includes/elementor/products.php:653
+#: framework/includes/elementor/products.php:674
+#: framework/includes/elementor/products.php:695
+#: framework/includes/elementor/products.php:716
+#: framework/includes/elementor/products.php:737
+#: framework/includes/elementor/team.php:567
+#: framework/includes/elementor/team.php:588
+#: framework/includes/elementor/team.php:609
+#: framework/includes/elementor/team.php:630
+#: framework/includes/elementor/team.php:651
+#: framework/includes/elementor/team.php:672
+msgid "2 items"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:206
+#: framework/includes/elementor/instagram.php:183
+#: framework/includes/elementor/product-tabs.php:303
+#: framework/includes/elementor/products.php:252
+#: framework/includes/elementor/team.php:187
+#: framework/includes/elementor/testimonial.php:142
+msgid "2 Rows"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:227
+#: framework/includes/elementor/blog.php:562
+#: framework/includes/elementor/instagram.php:204
+#: framework/includes/elementor/instagram.php:539
+#: framework/includes/elementor/product-tabs.php:324
+#: framework/includes/elementor/product-tabs.php:659
+#: framework/includes/elementor/products.php:273
+#: framework/includes/elementor/products.php:608
+#: framework/includes/elementor/team.php:208
+#: framework/includes/elementor/team.php:543
+#: framework/includes/elementor/testimonial.php:163
+msgid "20px"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:587
+#: framework/includes/elementor/blog.php:608
+#: framework/includes/elementor/blog.php:629
+#: framework/includes/elementor/blog.php:650
+#: framework/includes/elementor/blog.php:671
+#: framework/includes/elementor/blog.php:692
+#: framework/includes/elementor/instagram.php:564
+#: framework/includes/elementor/instagram.php:585
+#: framework/includes/elementor/instagram.php:606
+#: framework/includes/elementor/instagram.php:627
+#: framework/includes/elementor/instagram.php:648
+#: framework/includes/elementor/instagram.php:669
+#: framework/includes/elementor/product-tabs.php:684
+#: framework/includes/elementor/product-tabs.php:705
+#: framework/includes/elementor/product-tabs.php:726
+#: framework/includes/elementor/product-tabs.php:747
+#: framework/includes/elementor/product-tabs.php:768
+#: framework/includes/elementor/product-tabs.php:789
+#: framework/includes/elementor/products.php:633
+#: framework/includes/elementor/products.php:654
+#: framework/includes/elementor/products.php:675
+#: framework/includes/elementor/products.php:696
+#: framework/includes/elementor/products.php:717
+#: framework/includes/elementor/products.php:738
+#: framework/includes/elementor/team.php:568
+#: framework/includes/elementor/team.php:589
+#: framework/includes/elementor/team.php:610
+#: framework/includes/elementor/team.php:631
+#: framework/includes/elementor/team.php:652
+#: framework/includes/elementor/team.php:673
+msgid "3 items"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:207
+#: framework/includes/elementor/instagram.php:184
+#: framework/includes/elementor/product-tabs.php:304
+#: framework/includes/elementor/products.php:253
+#: framework/includes/elementor/team.php:188
+#: framework/includes/elementor/testimonial.php:143
+msgid "3 Rows"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:228
+#: framework/includes/elementor/blog.php:563
+#: framework/includes/elementor/instagram.php:205
+#: framework/includes/elementor/instagram.php:540
+#: framework/includes/elementor/product-tabs.php:325
+#: framework/includes/elementor/product-tabs.php:660
+#: framework/includes/elementor/products.php:274
+#: framework/includes/elementor/products.php:609
+#: framework/includes/elementor/team.php:209
+#: framework/includes/elementor/team.php:544
+#: framework/includes/elementor/testimonial.php:164
+msgid "30px"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:588
+#: framework/includes/elementor/blog.php:609
+#: framework/includes/elementor/blog.php:630
+#: framework/includes/elementor/blog.php:651
+#: framework/includes/elementor/blog.php:672
+#: framework/includes/elementor/blog.php:693
+#: framework/includes/elementor/instagram.php:565
+#: framework/includes/elementor/instagram.php:586
+#: framework/includes/elementor/instagram.php:607
+#: framework/includes/elementor/instagram.php:628
+#: framework/includes/elementor/instagram.php:649
+#: framework/includes/elementor/instagram.php:670
+#: framework/includes/elementor/product-tabs.php:685
+#: framework/includes/elementor/product-tabs.php:706
+#: framework/includes/elementor/product-tabs.php:727
+#: framework/includes/elementor/product-tabs.php:748
+#: framework/includes/elementor/product-tabs.php:769
+#: framework/includes/elementor/product-tabs.php:790
+#: framework/includes/elementor/products.php:634
+#: framework/includes/elementor/products.php:655
+#: framework/includes/elementor/products.php:676
+#: framework/includes/elementor/products.php:697
+#: framework/includes/elementor/products.php:718
+#: framework/includes/elementor/products.php:739
+#: framework/includes/elementor/team.php:569
+#: framework/includes/elementor/team.php:590
+#: framework/includes/elementor/team.php:611
+#: framework/includes/elementor/team.php:632
+#: framework/includes/elementor/team.php:653
+#: framework/includes/elementor/team.php:674
+msgid "4 items"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:208
+#: framework/includes/elementor/instagram.php:185
+#: framework/includes/elementor/product-tabs.php:305
+#: framework/includes/elementor/products.php:254
+#: framework/includes/elementor/team.php:189
+#: framework/includes/elementor/testimonial.php:144
+msgid "4 Rows"
+msgstr ""
+
+#: framework/includes/breadcrumbs.php:183
+msgid "404 Not Found"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:229
+#: framework/includes/elementor/blog.php:564
+#: framework/includes/elementor/instagram.php:206
+#: framework/includes/elementor/instagram.php:541
+#: framework/includes/elementor/product-tabs.php:326
+#: framework/includes/elementor/product-tabs.php:661
+#: framework/includes/elementor/products.php:275
+#: framework/includes/elementor/products.php:610
+#: framework/includes/elementor/team.php:210
+#: framework/includes/elementor/team.php:545
+#: framework/includes/elementor/testimonial.php:165
+msgid "40px"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:589
+#: framework/includes/elementor/blog.php:610
+#: framework/includes/elementor/blog.php:631
+#: framework/includes/elementor/blog.php:652
+#: framework/includes/elementor/blog.php:673
+#: framework/includes/elementor/blog.php:694
+#: framework/includes/elementor/instagram.php:566
+#: framework/includes/elementor/instagram.php:587
+#: framework/includes/elementor/instagram.php:608
+#: framework/includes/elementor/instagram.php:629
+#: framework/includes/elementor/instagram.php:650
+#: framework/includes/elementor/instagram.php:671
+#: framework/includes/elementor/product-tabs.php:686
+#: framework/includes/elementor/product-tabs.php:707
+#: framework/includes/elementor/product-tabs.php:728
+#: framework/includes/elementor/product-tabs.php:749
+#: framework/includes/elementor/product-tabs.php:770
+#: framework/includes/elementor/product-tabs.php:791
+#: framework/includes/elementor/products.php:635
+#: framework/includes/elementor/products.php:656
+#: framework/includes/elementor/products.php:677
+#: framework/includes/elementor/products.php:698
+#: framework/includes/elementor/products.php:719
+#: framework/includes/elementor/products.php:740
+#: framework/includes/elementor/team.php:570
+#: framework/includes/elementor/team.php:591
+#: framework/includes/elementor/team.php:612
+#: framework/includes/elementor/team.php:633
+#: framework/includes/elementor/team.php:654
+#: framework/includes/elementor/team.php:675
+msgid "5 items"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:209
+#: framework/includes/elementor/instagram.php:186
+#: framework/includes/elementor/product-tabs.php:306
+#: framework/includes/elementor/products.php:255
+#: framework/includes/elementor/team.php:190
+#: framework/includes/elementor/testimonial.php:145
+msgid "5 Rows"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:230
+#: framework/includes/elementor/blog.php:565
+#: framework/includes/elementor/instagram.php:207
+#: framework/includes/elementor/instagram.php:542
+#: framework/includes/elementor/product-tabs.php:327
+#: framework/includes/elementor/product-tabs.php:662
+#: framework/includes/elementor/products.php:276
+#: framework/includes/elementor/products.php:611
+#: framework/includes/elementor/team.php:211
+#: framework/includes/elementor/team.php:546
+#: framework/includes/elementor/testimonial.php:166
+msgid "50px"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:590
+#: framework/includes/elementor/blog.php:611
+#: framework/includes/elementor/blog.php:632
+#: framework/includes/elementor/blog.php:653
+#: framework/includes/elementor/blog.php:674
+#: framework/includes/elementor/blog.php:695
+#: framework/includes/elementor/instagram.php:567
+#: framework/includes/elementor/instagram.php:588
+#: framework/includes/elementor/instagram.php:609
+#: framework/includes/elementor/instagram.php:630
+#: framework/includes/elementor/instagram.php:651
+#: framework/includes/elementor/instagram.php:672
+#: framework/includes/elementor/product-tabs.php:687
+#: framework/includes/elementor/product-tabs.php:708
+#: framework/includes/elementor/product-tabs.php:729
+#: framework/includes/elementor/product-tabs.php:750
+#: framework/includes/elementor/product-tabs.php:771
+#: framework/includes/elementor/product-tabs.php:792
+#: framework/includes/elementor/products.php:636
+#: framework/includes/elementor/products.php:657
+#: framework/includes/elementor/products.php:678
+#: framework/includes/elementor/products.php:699
+#: framework/includes/elementor/products.php:720
+#: framework/includes/elementor/products.php:741
+#: framework/includes/elementor/team.php:571
+#: framework/includes/elementor/team.php:592
+#: framework/includes/elementor/team.php:613
+#: framework/includes/elementor/team.php:634
+#: framework/includes/elementor/team.php:655
+#: framework/includes/elementor/team.php:676
+msgid "6 items"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:210
+#: framework/includes/elementor/instagram.php:187
+#: framework/includes/elementor/product-tabs.php:307
+#: framework/includes/elementor/products.php:256
+#: framework/includes/elementor/team.php:191
+#: framework/includes/elementor/testimonial.php:146
+msgid "6 Rows"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:231
+#: framework/includes/elementor/blog.php:566
+#: framework/includes/elementor/instagram.php:208
+#: framework/includes/elementor/instagram.php:543
+#: framework/includes/elementor/product-tabs.php:328
+#: framework/includes/elementor/product-tabs.php:663
+#: framework/includes/elementor/products.php:277
+#: framework/includes/elementor/products.php:612
+#: framework/includes/elementor/team.php:212
+#: framework/includes/elementor/team.php:547
+#: framework/includes/elementor/testimonial.php:167
+msgid "60px"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:232
+#: framework/includes/elementor/blog.php:567
+#: framework/includes/elementor/instagram.php:209
+#: framework/includes/elementor/instagram.php:544
+#: framework/includes/elementor/product-tabs.php:329
+#: framework/includes/elementor/product-tabs.php:664
+#: framework/includes/elementor/products.php:278
+#: framework/includes/elementor/products.php:613
+#: framework/includes/elementor/team.php:213
+#: framework/includes/elementor/team.php:548
+#: framework/includes/elementor/testimonial.php:168
+msgid "70px"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:233
+#: framework/includes/elementor/blog.php:568
+#: framework/includes/elementor/instagram.php:210
+#: framework/includes/elementor/instagram.php:545
+#: framework/includes/elementor/product-tabs.php:330
+#: framework/includes/elementor/product-tabs.php:665
+#: framework/includes/elementor/products.php:279
+#: framework/includes/elementor/products.php:614
+#: framework/includes/elementor/team.php:214
+#: framework/includes/elementor/team.php:549
+#: framework/includes/elementor/testimonial.php:169
+msgid "80px"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:234
+#: framework/includes/elementor/blog.php:569
+#: framework/includes/elementor/instagram.php:211
+#: framework/includes/elementor/instagram.php:546
+#: framework/includes/elementor/product-tabs.php:331
+#: framework/includes/elementor/product-tabs.php:666
+#: framework/includes/elementor/products.php:280
+#: framework/includes/elementor/products.php:615
+#: framework/includes/elementor/team.php:215
+#: framework/includes/elementor/team.php:550
+#: framework/includes/elementor/testimonial.php:170
+msgid "90px"
+msgstr ""
+
+#: framework/includes/elementor/customlink.php:151
+msgid "Add Link Home"
+msgstr ""
+
+#: functions.php:84
+msgid "Add widgets here to appear in your blog sidebar."
+msgstr ""
+
+#: functions.php:94
+msgid "Add widgets here to appear in your shop sidebar."
+msgstr ""
+
+#: functions.php:104
+msgid "Add widgets here to appear in your single product sidebar."
+msgstr ""
+
+#: framework/includes/elementor/customlink.php:52
+#: framework/includes/elementor/socials.php:52
+msgid "Alignment"
+msgstr ""
+
+#: framework/includes/elementor/elementor.php:109
+#: framework/includes/elementor/elementor.php:124
+#: framework/includes/elementor/instagram.php:21
+msgid "All"
+msgstr ""
+
+#: framework/includes/blog-functions.php:352
+msgid "All author posts"
+msgstr ""
+
+#: framework/includes/theme-functions.php:100
+#: framework/includes/theme-functions.php:163
+#: framework/includes/elementor/verticalmenu.php:67
+msgid "All Categories"
+msgstr ""
+
+#: framework/includes/breadcrumbs.php:184
+msgid "Archives"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:148
+#: framework/includes/elementor/product-tabs.php:209
+#: framework/includes/elementor/products.php:167
+msgid "Ascending"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:128
+#: framework/includes/elementor/product-tabs.php:186
+#: framework/includes/elementor/products.php:144
+msgid "Author"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:280
+#: framework/includes/elementor/instagram.php:257
+#: framework/includes/elementor/product-tabs.php:377
+#: framework/includes/elementor/products.php:326
+#: framework/includes/elementor/team.php:261
+#: framework/includes/elementor/testimonial.php:216
+msgid "AutoPlay"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:297
+#: framework/includes/elementor/instagram.php:274
+#: framework/includes/elementor/product-tabs.php:394
+#: framework/includes/elementor/products.php:343
+#: framework/includes/elementor/team.php:278
+#: framework/includes/elementor/testimonial.php:233
+msgid "Autoplay Speed"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:301
+#: framework/includes/elementor/instagram.php:278
+#: framework/includes/elementor/product-tabs.php:398
+#: framework/includes/elementor/products.php:347
+#: framework/includes/elementor/team.php:282
+#: framework/includes/elementor/testimonial.php:237
+msgid "Autoplay Speed in milliseconds"
+msgstr ""
+
+#: framework/includes/woo-functions.php:160
+msgid "Available: "
+msgstr ""
+
+#: framework/includes/elementor/team.php:70
+#: framework/includes/elementor/testimonial.php:52
+msgid "Avatar"
+msgstr ""
+
+#: framework/includes/elementor/banner.php:145
+msgid "Background Color"
+msgstr ""
+
+#: framework/includes/elementor/product-tabs.php:164
+#: framework/includes/elementor/products.php:109
+msgid "Best Selling Products"
+msgstr ""
+
+#: framework/includes/breadcrumbs.php:181
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: functions.php:207
+msgid "Browse Wishlist"
+msgstr ""
+
+#: framework/includes/breadcrumbs.php:180
+msgid "Browse:"
+msgstr ""
+
+#: framework/includes/elementor/verticalmenu.php:92
+msgid "Button All Text"
+msgstr ""
+
+#: framework/includes/elementor/verticalmenu.php:83
+msgid "Button Close Text"
+msgstr ""
+
+#: framework/includes/elementor/banner.php:103
+msgid "Button Link"
+msgstr ""
+
+#: framework/includes/elementor/banner.php:128
+msgid "Button Link More"
+msgstr ""
+
+#: framework/includes/elementor/banner.php:92
+msgid "Button Text"
+msgstr ""
+
+#: framework/includes/elementor/banner.php:117
+msgid "Button Text More"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:172
+#: framework/includes/elementor/instagram.php:149
+#: framework/includes/elementor/product-tabs.php:269
+#: framework/includes/elementor/products.php:218
+#: framework/includes/elementor/team.php:153
+#: framework/includes/elementor/testimonial.php:119
+msgid "Carousel"
+msgstr ""
+
+#: framework/includes/woo-functions.php:218
+msgid "Cart"
+msgstr ""
+
+#: framework/includes/theme-functions.php:162
+msgid "CATEGORIES"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:71
+msgid "Category"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:95
+msgid "Categorys"
+msgstr ""
+
+#: framework/includes/elementor/customlink.php:60
+#: framework/includes/elementor/socials.php:60
+msgid "Center"
+msgstr ""
+
+#: framework/includes/elementor/product-tabs.php:173
+#: framework/includes/elementor/products.php:118
+msgid "Choose the target to filter products"
+msgstr ""
+
+#: framework/includes/theme-functions.php:164
+#: framework/includes/woo-functions.php:191
+#: framework/includes/elementor/verticalmenu.php:86
+msgid "Close"
+msgstr ""
+
+#: framework/includes/elementor/iconbox.php:51
+#: framework/includes/elementor/testimonial.php:86
+msgid "Color"
+msgstr ""
+
+#: framework/includes/elementor/product-tabs.php:190
+#: framework/includes/elementor/products.php:148
+msgid "Comment count"
+msgstr ""
+
+#: comments.php:36
+msgid "Comments"
+msgstr ""
+
+#: comments.php:58
+msgid "Comments are closed."
+msgstr ""
+
+#. %s: Name of current post
+#: framework/includes/blog-functions.php:258
+#, php-format
+msgid "Continue reading %s"
+msgstr ""
+
+#: framework/includes/woo-functions.php:826
+msgid "Cross Sell Products"
+msgstr ""
+
+#: framework/includes/elementor/product-tabs.php:65
+msgid "Css Animation"
+msgstr ""
+
+#: framework/includes/elementor/elementor.php:160
+msgid "Custom"
+msgstr ""
+
+#: framework/includes/breadcrumbs.php:620
+#: framework/includes/breadcrumbs.php:957
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:130
+#: framework/includes/elementor/product-tabs.php:184
+#: framework/includes/elementor/products.php:142
+msgid "Date"
+msgstr ""
+
+#: functions.php:236
+msgid "Days"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:225
+#: framework/includes/elementor/blog.php:560
+#: framework/includes/elementor/instagram.php:202
+#: framework/includes/elementor/instagram.php:537
+#: framework/includes/elementor/product-tabs.php:322
+#: framework/includes/elementor/product-tabs.php:657
+#: framework/includes/elementor/products.php:271
+#: framework/includes/elementor/products.php:606
+#: framework/includes/elementor/team.php:206
+#: framework/includes/elementor/team.php:541
+#: framework/includes/elementor/testimonial.php:161
+msgid "Default"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:149
+#: framework/includes/elementor/product-tabs.php:210
+#: framework/includes/elementor/products.php:168
+msgid "Descending"
+msgstr ""
+
+#: framework/includes/elementor/banner.php:81
+#: framework/includes/elementor/blog.php:59
+#: framework/includes/elementor/iconbox.php:107
+#: framework/includes/elementor/instagram.php:106
+#: framework/includes/elementor/newsletter.php:59
+#: framework/includes/elementor/products.php:59
+#: framework/includes/elementor/team.php:59
+#: framework/includes/elementor/testimonial.php:78
+#: framework/includes/elementor/title.php:98
+#: framework/includes/elementor/videopopup.php:69
+msgid "Description"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:546
+#: framework/includes/elementor/instagram.php:523
+#: framework/includes/elementor/product-tabs.php:643
+#: framework/includes/elementor/products.php:592
+#: framework/includes/elementor/team.php:527
+#: framework/includes/elementor/testimonial.php:482
+msgid ""
+"Distance( or space) between 2 items on screen resolution of device < 480px"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:426
+#: framework/includes/elementor/instagram.php:403
+#: framework/includes/elementor/product-tabs.php:523
+#: framework/includes/elementor/products.php:472
+#: framework/includes/elementor/team.php:407
+#: framework/includes/elementor/testimonial.php:362
+msgid ""
+"Distance( or space) between 2 items on screen resolution of device >= 1200px "
+"and < 1500px"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:396
+#: framework/includes/elementor/instagram.php:373
+#: framework/includes/elementor/product-tabs.php:493
+#: framework/includes/elementor/products.php:442
+#: framework/includes/elementor/team.php:377
+#: framework/includes/elementor/testimonial.php:332
+msgid ""
+"Distance( or space) between 2 items on screen resolution of device >= 1500px"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:516
+#: framework/includes/elementor/instagram.php:493
+#: framework/includes/elementor/product-tabs.php:613
+#: framework/includes/elementor/products.php:562
+#: framework/includes/elementor/team.php:497
+#: framework/includes/elementor/testimonial.php:452
+msgid ""
+"Distance( or space) between 2 items on screen resolution of device >=480px "
+"and < 768px"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:486
+#: framework/includes/elementor/instagram.php:463
+#: framework/includes/elementor/product-tabs.php:583
+#: framework/includes/elementor/products.php:532
+#: framework/includes/elementor/team.php:467
+#: framework/includes/elementor/testimonial.php:422
+msgid ""
+"Distance( or space) between 2 items on screen resolution of device >=768px "
+"and < 992px"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:456
+#: framework/includes/elementor/instagram.php:433
+#: framework/includes/elementor/product-tabs.php:553
+#: framework/includes/elementor/products.php:502
+#: framework/includes/elementor/team.php:437
+#: framework/includes/elementor/testimonial.php:392
+msgid ""
+"Distance( or space) between 2 items on screen resolution of device >=992px "
+"and < 1200px"
+msgstr ""
+
+#: templates-part/popup-content.php:51
+msgid "Don&rsquo;t show this popup again!"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:329
+#: framework/includes/elementor/instagram.php:306
+#: framework/includes/elementor/product-tabs.php:426
+#: framework/includes/elementor/products.php:375
+#: framework/includes/elementor/team.php:310
+#: framework/includes/elementor/testimonial.php:265
+msgid "Dots"
+msgstr ""
+
+#: framework/includes/blog-functions.php:209
+msgid "Edit"
+msgstr ""
+
+#: comments.php:20
+msgid "Email*"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:287
+#: framework/includes/elementor/instagram.php:264
+#: framework/includes/elementor/product-tabs.php:384
+#: framework/includes/elementor/products.php:333
+#: framework/includes/elementor/team.php:268
+#: framework/includes/elementor/testimonial.php:223
+msgid "Enables Autoplay"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:84
+#: framework/includes/elementor/product-tabs.php:238
+#: framework/includes/elementor/products.php:196
+msgid "Enter IDs"
+msgstr ""
+
+#: framework/includes/elementor/verticalmenu.php:94
+msgid "Enter your button all text"
+msgstr ""
+
+#: framework/includes/elementor/verticalmenu.php:85
+msgid "Enter your button close text"
+msgstr ""
+
+#: framework/includes/elementor/banner.php:94
+#: framework/includes/elementor/banner.php:119
+msgid "Enter your button text"
+msgstr ""
+
+#: comments.php:22
+msgid "Enter your comment here..."
+msgstr ""
+
+#: framework/includes/elementor/banner.php:83
+#: framework/includes/elementor/blog.php:61
+#: framework/includes/elementor/iconbox.php:109
+#: framework/includes/elementor/instagram.php:108
+#: framework/includes/elementor/newsletter.php:61
+#: framework/includes/elementor/products.php:61
+#: framework/includes/elementor/team.php:61
+#: framework/includes/elementor/testimonial.php:80
+#: framework/includes/elementor/title.php:100
+#: framework/includes/elementor/videopopup.php:71
+msgid "Enter your description"
+msgstr ""
+
+#: framework/includes/elementor/testimonial.php:64
+msgid "Enter your name"
+msgstr ""
+
+#: framework/includes/elementor/team.php:90
+#: framework/includes/elementor/testimonial.php:72
+msgid "Enter your position"
+msgstr ""
+
+#: framework/includes/elementor/newsletter.php:69
+msgid "Enter your shortcode"
+msgstr ""
+
+#: framework/includes/elementor/banner.php:63
+msgid "Enter your subtitle"
+msgstr ""
+
+#: framework/includes/elementor/product-tabs.php:142
+msgid "Enter your tab title"
+msgstr ""
+
+#: framework/includes/elementor/customlink.php:133
+#: framework/includes/elementor/videopopup.php:79
+msgid "Enter your text"
+msgstr ""
+
+#: framework/includes/elementor/banner.php:74
+#: framework/includes/elementor/blog.php:53
+#: framework/includes/elementor/customlink.php:81
+#: framework/includes/elementor/iconbox.php:101
+#: framework/includes/elementor/instagram.php:100
+#: framework/includes/elementor/newsletter.php:53
+#: framework/includes/elementor/products.php:53
+#: framework/includes/elementor/socials.php:81
+#: framework/includes/elementor/team.php:53
+#: framework/includes/elementor/team.php:82
+#: framework/includes/elementor/title.php:92
+#: framework/includes/elementor/verticalmenu.php:66
+#: framework/includes/elementor/videopopup.php:63
+msgid "Enter your title"
+msgstr ""
+
+#: 404.php:24
+msgid "Error 404 Not Found "
+msgstr ""
+
+#: framework/includes/elementor/blog.php:85
+#: framework/includes/elementor/product-tabs.php:239
+#: framework/includes/elementor/products.php:197
+msgid "Ex: 1,2,3,..."
+msgstr ""
+
+#: framework/includes/elementor/product-tabs.php:167
+#: framework/includes/elementor/products.php:112
+msgid "Featured Products"
+msgstr ""
+
+#. Name of the template
+msgid "Full Width Page"
+msgstr ""
+
+#: framework/includes/elementor/instagram.php:129
+msgid "Gallery"
+msgstr ""
+
+#: framework/includes/elementor/banner.php:24
+#: framework/includes/elementor/blog.php:24
+#: framework/includes/elementor/customlink.php:24
+#: framework/includes/elementor/iconbox.php:24
+#: framework/includes/elementor/instagram.php:32
+#: framework/includes/elementor/newsletter.php:24
+#: framework/includes/elementor/pinmapper.php:24
+#: framework/includes/elementor/product-tabs.php:24
+#: framework/includes/elementor/products.php:24
+#: framework/includes/elementor/socials.php:24
+#: framework/includes/elementor/team.php:24
+#: framework/includes/elementor/testimonial.php:24
+#: framework/includes/elementor/title.php:24
+#: framework/includes/elementor/verticalmenu.php:24
+#: framework/includes/elementor/videopopup.php:24
+msgid "General"
+msgstr ""
+
+#: content-none.php:4
+msgid "Get started here"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:173
+#: framework/includes/elementor/instagram.php:150
+#: framework/includes/elementor/product-tabs.php:270
+#: framework/includes/elementor/products.php:219
+#: framework/includes/elementor/team.php:154
+msgid "Grid"
+msgstr ""
+
+#: functions.php:201
+msgid "has been added to cart!"
+msgstr ""
+
+#: framework/includes/elementor/product-tabs.php:127
+#: framework/includes/elementor/products.php:92
+msgid "Height"
+msgstr ""
+
+#: framework/includes/breadcrumbs.php:182
+msgid "Home"
+msgstr ""
+
+#: 404.php:27
+msgid "Home page"
+msgstr ""
+
+#: framework/includes/breadcrumbs.php:603
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: functions.php:237
+msgid "Hours"
+msgstr ""
+
+#: framework/includes/elementor/banner.php:105
+#: framework/includes/elementor/banner.php:130
+#: framework/includes/elementor/instagram.php:116
+#: framework/includes/elementor/videopopup.php:88
+msgid "https://your-link.com"
+msgstr ""
+
+#: framework/includes/woo-functions.php:128
+msgid "Hungry Up ! Deals end in :"
+msgstr ""
+
+#: framework/includes/elementor/customlink.php:96
+#: framework/includes/elementor/customlink.php:119
+#: framework/includes/elementor/iconbox.php:65
+#: framework/includes/elementor/iconbox.php:87
+#: framework/includes/elementor/instagram.php:63
+#: framework/includes/elementor/instagram.php:86
+#: framework/includes/elementor/title.php:55
+#: framework/includes/elementor/title.php:78
+msgid "Icon"
+msgstr ""
+
+#: framework/includes/elementor/customlink.php:91
+#: framework/includes/elementor/iconbox.php:61
+#: framework/includes/elementor/instagram.php:59
+#: framework/includes/elementor/title.php:51
+msgid "Icon library"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:127
+#: framework/includes/elementor/product-tabs.php:185
+#: framework/includes/elementor/products.php:143
+msgid "ID"
+msgstr ""
+
+#: framework/includes/elementor/banner.php:51
+#: framework/includes/elementor/videopopup.php:51
+msgid "Image"
+msgstr ""
+
+#: framework/includes/elementor/product-tabs.php:103
+#: framework/includes/elementor/products.php:68
+msgid "Image size"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:353
+#: framework/includes/elementor/instagram.php:330
+#: framework/includes/elementor/product-tabs.php:450
+#: framework/includes/elementor/products.php:399
+#: framework/includes/elementor/team.php:334
+#: framework/includes/elementor/testimonial.php:289
+msgid "Infinite loop sliding"
+msgstr ""
+
+#: content-none.php:9
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: framework/includes/elementor/blog.php:407
+#: framework/includes/elementor/blog.php:603
+#: framework/includes/elementor/instagram.php:384
+#: framework/includes/elementor/instagram.php:580
+#: framework/includes/elementor/product-tabs.php:504
+#: framework/includes/elementor/product-tabs.php:700
+#: framework/includes/elementor/products.php:453
+#: framework/includes/elementor/products.php:649
+#: framework/includes/elementor/team.php:388
+#: framework/includes/elementor/team.php:584
+#: framework/includes/elementor/testimonial.php:343
+msgid "Items per row on Desktop"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:437
+#: framework/includes/elementor/instagram.php:414
+#: framework/includes/elementor/product-tabs.php:534
+#: framework/includes/elementor/products.php:483
+#: framework/includes/elementor/team.php:418
+#: framework/includes/elementor/testimonial.php:373
+msgid "Items per row on Landscape Tablet"
+msgstr ""
+
+#: framework/includes/elementor/products.php:670
+msgid "Items per row on landscape Tablet"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:624
+#: framework/includes/elementor/instagram.php:601
+#: framework/includes/elementor/product-tabs.php:721
+#: framework/includes/elementor/team.php:605
+msgid "Items per row on landscape tablet"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:527
+#: framework/includes/elementor/blog.php:666
+#: framework/includes/elementor/blog.php:687
+#: framework/includes/elementor/instagram.php:504
+#: framework/includes/elementor/instagram.php:643
+#: framework/includes/elementor/instagram.php:664
+#: framework/includes/elementor/product-tabs.php:624
+#: framework/includes/elementor/product-tabs.php:763
+#: framework/includes/elementor/product-tabs.php:784
+#: framework/includes/elementor/products.php:573
+#: framework/includes/elementor/products.php:712
+#: framework/includes/elementor/products.php:733
+#: framework/includes/elementor/team.php:508
+#: framework/includes/elementor/team.php:647
+#: framework/includes/elementor/team.php:668
+#: framework/includes/elementor/testimonial.php:463
+msgid "Items per row on Mobile"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:497
+#: framework/includes/elementor/instagram.php:474
+#: framework/includes/elementor/product-tabs.php:594
+#: framework/includes/elementor/products.php:543
+#: framework/includes/elementor/team.php:478
+#: framework/includes/elementor/testimonial.php:433
+msgid "Items per row on Mobile Landscape"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:645
+#: framework/includes/elementor/instagram.php:622
+#: framework/includes/elementor/product-tabs.php:742
+#: framework/includes/elementor/products.php:691
+#: framework/includes/elementor/team.php:626
+msgid "Items per row on portrait tablet"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:532
+#: framework/includes/elementor/blog.php:698
+#: framework/includes/elementor/instagram.php:509
+#: framework/includes/elementor/instagram.php:675
+#: framework/includes/elementor/product-tabs.php:629
+#: framework/includes/elementor/product-tabs.php:795
+#: framework/includes/elementor/products.php:578
+#: framework/includes/elementor/products.php:744
+#: framework/includes/elementor/team.php:513
+#: framework/includes/elementor/team.php:679
+#: framework/includes/elementor/testimonial.php:468
+msgid "Items per row on screen resolution of device < 480px"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:412
+#: framework/includes/elementor/blog.php:614
+#: framework/includes/elementor/instagram.php:389
+#: framework/includes/elementor/instagram.php:591
+#: framework/includes/elementor/product-tabs.php:509
+#: framework/includes/elementor/product-tabs.php:711
+#: framework/includes/elementor/products.php:458
+#: framework/includes/elementor/products.php:660
+#: framework/includes/elementor/team.php:393
+#: framework/includes/elementor/team.php:595
+#: framework/includes/elementor/testimonial.php:348
+msgid "Items per row on screen resolution of device >= 1200px and < 1500px"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:382
+#: framework/includes/elementor/blog.php:593
+#: framework/includes/elementor/instagram.php:359
+#: framework/includes/elementor/instagram.php:570
+#: framework/includes/elementor/product-tabs.php:479
+#: framework/includes/elementor/product-tabs.php:690
+#: framework/includes/elementor/products.php:428
+#: framework/includes/elementor/products.php:639
+#: framework/includes/elementor/team.php:363
+#: framework/includes/elementor/team.php:574
+#: framework/includes/elementor/testimonial.php:318
+msgid "Items per row on screen resolution of device >= 1500px"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:677
+#: framework/includes/elementor/instagram.php:654
+#: framework/includes/elementor/product-tabs.php:774
+#: framework/includes/elementor/products.php:723
+#: framework/includes/elementor/team.php:658
+msgid "Items per row on screen resolution of device >=480  add < 768px"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:502
+#: framework/includes/elementor/instagram.php:479
+#: framework/includes/elementor/product-tabs.php:599
+#: framework/includes/elementor/products.php:548
+#: framework/includes/elementor/team.php:483
+#: framework/includes/elementor/testimonial.php:438
+msgid "Items per row on screen resolution of device >=480px and < 768px"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:472
+#: framework/includes/elementor/blog.php:656
+#: framework/includes/elementor/instagram.php:449
+#: framework/includes/elementor/instagram.php:633
+#: framework/includes/elementor/product-tabs.php:569
+#: framework/includes/elementor/product-tabs.php:753
+#: framework/includes/elementor/products.php:518
+#: framework/includes/elementor/products.php:702
+#: framework/includes/elementor/team.php:453
+#: framework/includes/elementor/team.php:637
+#: framework/includes/elementor/testimonial.php:408
+msgid "Items per row on screen resolution of device >=768px and < 992px"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:442
+#: framework/includes/elementor/blog.php:635
+#: framework/includes/elementor/instagram.php:419
+#: framework/includes/elementor/instagram.php:612
+#: framework/includes/elementor/product-tabs.php:539
+#: framework/includes/elementor/product-tabs.php:732
+#: framework/includes/elementor/products.php:488
+#: framework/includes/elementor/products.php:681
+#: framework/includes/elementor/team.php:423
+#: framework/includes/elementor/team.php:616
+#: framework/includes/elementor/testimonial.php:378
+msgid "Items per row on screen resolution of device >=992px and < 1200px"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:467
+#: framework/includes/elementor/instagram.php:444
+#: framework/includes/elementor/product-tabs.php:564
+#: framework/includes/elementor/products.php:513
+#: framework/includes/elementor/team.php:448
+#: framework/includes/elementor/testimonial.php:403
+msgid "Items per row on Tablet"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:377
+#: framework/includes/elementor/blog.php:582
+#: framework/includes/elementor/instagram.php:354
+#: framework/includes/elementor/instagram.php:559
+#: framework/includes/elementor/product-tabs.php:474
+#: framework/includes/elementor/product-tabs.php:679
+#: framework/includes/elementor/products.php:423
+#: framework/includes/elementor/products.php:628
+#: framework/includes/elementor/team.php:358
+#: framework/includes/elementor/team.php:563
+#: framework/includes/elementor/testimonial.php:313
+msgid "Items per row on Wide Screens"
+msgstr ""
+
+#: framework/includes/elementor/customlink.php:68
+#: framework/includes/elementor/socials.php:68
+msgid "Justified"
+msgstr ""
+
+#: templates-part/page-title.php:12 templates-part/page-title.php:27
+msgid "Latest Posts"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:163
+#: framework/includes/elementor/blog.php:169
+#: framework/includes/elementor/instagram.php:140
+#: framework/includes/elementor/instagram.php:146
+#: framework/includes/elementor/product-tabs.php:260
+#: framework/includes/elementor/product-tabs.php:266
+#: framework/includes/elementor/products.php:209
+#: framework/includes/elementor/products.php:215
+#: framework/includes/elementor/team.php:144
+#: framework/includes/elementor/team.php:150
+#: framework/includes/elementor/testimonial.php:110
+#: framework/includes/elementor/testimonial.php:116
+msgid "Layout"
+msgstr ""
+
+#: comments.php:28
+msgid "Leave a comment"
+msgstr ""
+
+#: framework/includes/elementor/customlink.php:56
+#: framework/includes/elementor/socials.php:56
+msgid "Left"
+msgstr ""
+
+#: framework/includes/elementor/verticalmenu.php:101
+msgid "Limit items"
+msgstr ""
+
+#: framework/includes/elementor/customlink.php:139
+#: framework/includes/elementor/instagram.php:114
+msgid "Link"
+msgstr ""
+
+#: framework/includes/elementor/team.php:96
+msgid "Link Facebook"
+msgstr ""
+
+#: framework/includes/elementor/team.php:120
+msgid "Link Instagram"
+msgstr ""
+
+#: framework/includes/elementor/team.php:108
+msgid "Link Twitter"
+msgstr ""
+
+#: framework/includes/elementor/customlink.php:164
+msgid "List Links"
+msgstr ""
+
+#: framework/includes/theme-functions.php:257
+msgid "Logout"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:346
+#: framework/includes/elementor/instagram.php:323
+#: framework/includes/elementor/product-tabs.php:443
+#: framework/includes/elementor/products.php:392
+#: framework/includes/elementor/team.php:327
+#: framework/includes/elementor/testimonial.php:282
+msgid "Loop"
+msgstr ""
+
+#: framework/includes/theme-functions.php:280
+msgid "Main Menu"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:422
+#: framework/includes/elementor/instagram.php:399
+#: framework/includes/elementor/product-tabs.php:519
+#: framework/includes/elementor/products.php:468
+#: framework/includes/elementor/team.php:403
+#: framework/includes/elementor/testimonial.php:358
+msgid "Margin on Desktop"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:452
+#: framework/includes/elementor/instagram.php:429
+#: framework/includes/elementor/product-tabs.php:549
+#: framework/includes/elementor/products.php:498
+#: framework/includes/elementor/team.php:433
+#: framework/includes/elementor/testimonial.php:388
+msgid "Margin on Landscape Tablet"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:542
+#: framework/includes/elementor/instagram.php:519
+#: framework/includes/elementor/product-tabs.php:639
+#: framework/includes/elementor/products.php:588
+#: framework/includes/elementor/team.php:523
+#: framework/includes/elementor/testimonial.php:478
+msgid "Margin on Mobile"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:512
+#: framework/includes/elementor/instagram.php:489
+#: framework/includes/elementor/product-tabs.php:609
+#: framework/includes/elementor/products.php:558
+#: framework/includes/elementor/team.php:493
+#: framework/includes/elementor/testimonial.php:448
+msgid "Margin on Mobile Landscape"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:482
+#: framework/includes/elementor/instagram.php:459
+#: framework/includes/elementor/product-tabs.php:579
+#: framework/includes/elementor/products.php:528
+#: framework/includes/elementor/team.php:463
+#: framework/includes/elementor/testimonial.php:418
+msgid "Margin on Tablet"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:392
+#: framework/includes/elementor/instagram.php:369
+#: framework/includes/elementor/product-tabs.php:489
+#: framework/includes/elementor/products.php:438
+#: framework/includes/elementor/team.php:373
+#: framework/includes/elementor/testimonial.php:328
+msgid "Margin on Wide Screens"
+msgstr ""
+
+#: framework/includes/elementor/customlink.php:95
+#: framework/includes/elementor/customlink.php:104
+#: framework/includes/elementor/iconbox.php:64
+#: framework/includes/elementor/iconbox.php:73
+#: framework/includes/elementor/instagram.php:62
+#: framework/includes/elementor/instagram.php:71
+#: framework/includes/elementor/title.php:54
+#: framework/includes/elementor/title.php:63
+msgid "Media"
+msgstr ""
+
+#: framework/includes/elementor/verticalmenu.php:74
+msgid "Menu"
+msgstr ""
+
+#: framework/includes/elementor/product-tabs.php:191
+#: framework/includes/elementor/products.php:149
+msgid "Menu order"
+msgstr ""
+
+#: functions.php:238
+msgid "Mins"
+msgstr ""
+
+#. Minute archive title. %s is the minute time format.
+#: framework/includes/breadcrumbs.php:190
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: framework/includes/breadcrumbs.php:571
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: framework/includes/breadcrumbs.php:587
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:131
+#: framework/includes/elementor/product-tabs.php:188
+#: framework/includes/elementor/products.php:146
+msgid "Modified"
+msgstr ""
+
+#: framework/includes/breadcrumbs.php:619
+#: framework/includes/breadcrumbs.php:667
+#: framework/includes/breadcrumbs.php:954
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#. Name of the theme
+#. Author of the theme
+msgid "Moorabi"
+msgstr ""
+
+#: framework/includes/elementor-plugin.php:77
+msgid "moorabi"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Moorabi is a WordPress theme for Online Kids Store. With this theme, we have "
+"presets and different layouts. With drag and drop home page layout manager, "
+"we can build many variations of home page layout. We also have ajax cart, "
+"wishlist, compare to bring into a modern look of website. Some of amazing "
+"features like Revolution Slider, Elementor will makes your website more "
+"attractive."
+msgstr ""
+
+#: framework/includes/elementor/blog.php:129
+#: framework/includes/elementor/team.php:80
+#: framework/includes/elementor/testimonial.php:62
+msgid "Name"
+msgstr ""
+
+#: comments.php:19
+msgid "Name*"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:312
+#: framework/includes/elementor/instagram.php:289
+#: framework/includes/elementor/product-tabs.php:409
+#: framework/includes/elementor/products.php:358
+#: framework/includes/elementor/team.php:293
+#: framework/includes/elementor/testimonial.php:248
+msgid "Navigation"
+msgstr ""
+
+#: framework/includes/woo-functions.php:727
+msgid "New"
+msgstr ""
+
+#: templates-part/popup-content.php:31
+msgid "Newsletter"
+msgstr ""
+
+#: comments.php:54 framework/includes/woo-functions.php:560
+msgid "Next"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:251
+#: framework/includes/elementor/blog.php:267
+#: framework/includes/elementor/blog.php:284
+#: framework/includes/elementor/blog.php:316
+#: framework/includes/elementor/blog.php:333
+#: framework/includes/elementor/blog.php:350
+#: framework/includes/elementor/customlink.php:154
+#: framework/includes/elementor/instagram.php:228
+#: framework/includes/elementor/instagram.php:244
+#: framework/includes/elementor/instagram.php:261
+#: framework/includes/elementor/instagram.php:293
+#: framework/includes/elementor/instagram.php:310
+#: framework/includes/elementor/instagram.php:327
+#: framework/includes/elementor/product-tabs.php:56
+#: framework/includes/elementor/product-tabs.php:348
+#: framework/includes/elementor/product-tabs.php:364
+#: framework/includes/elementor/product-tabs.php:381
+#: framework/includes/elementor/product-tabs.php:413
+#: framework/includes/elementor/product-tabs.php:430
+#: framework/includes/elementor/product-tabs.php:447
+#: framework/includes/elementor/products.php:297
+#: framework/includes/elementor/products.php:313
+#: framework/includes/elementor/products.php:330
+#: framework/includes/elementor/products.php:362
+#: framework/includes/elementor/products.php:379
+#: framework/includes/elementor/products.php:396
+#: framework/includes/elementor/team.php:232
+#: framework/includes/elementor/team.php:248
+#: framework/includes/elementor/team.php:265
+#: framework/includes/elementor/team.php:297
+#: framework/includes/elementor/team.php:314
+#: framework/includes/elementor/team.php:331
+#: framework/includes/elementor/testimonial.php:187
+#: framework/includes/elementor/testimonial.php:203
+#: framework/includes/elementor/testimonial.php:220
+#: framework/includes/elementor/testimonial.php:252
+#: framework/includes/elementor/testimonial.php:269
+#: framework/includes/elementor/testimonial.php:286
+#: framework/includes/elementor/verticalmenu.php:56
+msgid "No"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:790
+msgid "No Content"
+msgstr ""
+
+#: framework/includes/elementor/product-tabs.php:911
+#: framework/includes/elementor/product-tabs.php:928
+#: framework/includes/elementor/products.php:842
+msgid "No Product"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:126
+#: framework/includes/elementor/customlink.php:94
+msgid "None"
+msgstr ""
+
+#: framework/includes/elementor/product-tabs.php:153
+#: framework/includes/elementor/products.php:129
+msgid ""
+"Note: If you want to narrow output, select category(s) above. Only selected "
+"categories will be displayed."
+msgstr ""
+
+#: content-none.php:1
+msgid "Nothing Found"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:108
+msgid "Number Post"
+msgstr ""
+
+#: framework/includes/elementor/product-tabs.php:169
+#: framework/includes/elementor/products.php:114
+msgid "On New"
+msgstr ""
+
+#: framework/includes/elementor/product-tabs.php:168
+#: framework/includes/elementor/products.php:113
+msgid "On Sale"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:145
+#: framework/includes/elementor/product-tabs.php:206
+#: framework/includes/elementor/products.php:164
+msgid "Order"
+msgstr ""
+
+#: framework/includes/elementor/product-tabs.php:181
+#: framework/includes/elementor/products.php:139
+msgid "Order by"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:123
+msgid "Orderby"
+msgstr ""
+
+#: page.php:54
+msgid "Page"
+msgstr ""
+
+#. %s is the page number.
+#: framework/includes/breadcrumbs.php:188
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: page.php:50 framework/includes/blog-functions.php:263
+msgid "Pages:"
+msgstr ""
+
+#: searchform.php:16
+msgctxt "placeholder"
+msgid "Your search here&hellip;"
+msgstr ""
+
+#: framework/includes/elementor/team.php:88
+#: framework/includes/elementor/testimonial.php:70
+msgid "Position"
+msgstr ""
+
+#: framework/includes/elementor/verticalmenu.php:52
+msgid "Position absolute menu"
+msgstr ""
+
+#: comments.php:27
+msgid "Post a comment"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:82
+msgid "Post IDs"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:72
+msgid "Post(s)"
+msgstr ""
+
+#: comments.php:53
+msgid "Prev"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:319
+#: framework/includes/elementor/instagram.php:296
+#: framework/includes/elementor/product-tabs.php:416
+#: framework/includes/elementor/products.php:365
+#: framework/includes/elementor/team.php:300
+#: framework/includes/elementor/testimonial.php:255
+msgid "Prev/Next Arrows"
+msgstr ""
+
+#: framework/includes/woo-functions.php:559
+msgid "Previous"
+msgstr ""
+
+#: functions.php:41
+msgid "Primary Menu"
+msgstr ""
+
+#: framework/includes/elementor/product-tabs.php:75
+msgid "Product"
+msgstr ""
+
+#: framework/includes/elementor/product-tabs.php:149
+#: framework/includes/elementor/product-tabs.php:166
+#: framework/includes/elementor/products.php:111
+#: framework/includes/elementor/products.php:125
+msgid "Product Category"
+msgstr ""
+
+#: functions.php:203
+msgid "Product has been added to cart!"
+msgstr ""
+
+#: functions.php:205
+msgid "Product has been added to wishlist!"
+msgstr ""
+
+#: framework/includes/elementor/product-tabs.php:236
+#: framework/includes/elementor/products.php:194
+msgid "Product IDs"
+msgstr ""
+
+#: framework/includes/elementor/product-tabs.php:222
+#: framework/includes/elementor/products.php:180
+msgid "Product per page"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:42
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: functions.php:208
+msgid "Product Removed"
+msgstr ""
+
+#: framework/includes/elementor/product-tabs.php:170
+#: framework/includes/elementor/products.php:115
+msgid "Products"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:33
+msgid "Quantiy:"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:132
+#: framework/includes/elementor/product-tabs.php:189
+#: framework/includes/elementor/products.php:147
+msgid "Random"
+msgstr ""
+
+#: framework/includes/blog-functions.php:236
+msgid "Read more"
+msgstr ""
+
+#: content-none.php:4
+msgid "Ready to publish your first post?"
+msgstr ""
+
+#: framework/includes/elementor/product-tabs.php:163
+#: framework/includes/elementor/products.php:108
+msgid "Recent Products"
+msgstr ""
+
+#: framework/includes/woo-functions.php:828
+msgid "Related Products"
+msgstr ""
+
+#: framework/includes/elementor/customlink.php:64
+#: framework/includes/elementor/socials.php:64
+msgid "Right"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:222
+#: framework/includes/elementor/instagram.php:199
+#: framework/includes/elementor/product-tabs.php:319
+#: framework/includes/elementor/products.php:268
+#: framework/includes/elementor/team.php:203
+#: framework/includes/elementor/testimonial.php:158
+msgid "Rows Space"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:557
+#: framework/includes/elementor/instagram.php:534
+#: framework/includes/elementor/product-tabs.php:654
+#: framework/includes/elementor/products.php:603
+#: framework/includes/elementor/team.php:538
+msgid "Rows space"
+msgstr ""
+
+#: framework/includes/elementor/product-tabs.php:192
+#: framework/includes/elementor/products.php:150
+msgid "Sale price"
+msgstr ""
+
+#: searchform.php:18 framework/includes/theme-functions.php:116
+msgid "Search"
+msgstr ""
+
+#: framework/includes/theme-functions.php:132
+msgid "Search here..."
+msgstr ""
+
+#. %s is the search query. The HTML entities are opening and closing curly quotes.
+#: framework/includes/breadcrumbs.php:186
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: templates-part/page-title.php:19 templates-part/page-title.php:34
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: functions.php:239
+msgid "Secs"
+msgstr ""
+
+#: framework/includes/elementor/newsletter.php:67
+msgid "Select a form"
+msgstr ""
+
+#: framework/includes/elementor/product-tabs.php:106
+#: framework/includes/elementor/products.php:71
+msgid "Select a size for product"
+msgstr ""
+
+#: framework/includes/elementor/product-tabs.php:195
+#: framework/includes/elementor/products.php:153
+msgid "Select how to sort"
+msgstr ""
+
+#: framework/includes/elementor/verticalmenu.php:77
+msgid "Select menu to display."
+msgstr ""
+
+#: framework/includes/woo-functions.php:495
+msgid "Shop Grid"
+msgstr ""
+
+#: framework/includes/woo-functions.php:482
+msgid "Shop List"
+msgstr ""
+
+#: framework/includes/woo-functions.php:232
+msgid "Shopping Cart"
+msgstr ""
+
+#: framework/includes/woo-functions.php:522
+msgid "Show 05"
+msgstr ""
+
+#: framework/includes/woo-functions.php:525
+msgid "Show 10"
+msgstr ""
+
+#: framework/includes/woo-functions.php:528
+msgid "Show 12"
+msgstr ""
+
+#: framework/includes/woo-functions.php:531
+msgid "Show 15"
+msgstr ""
+
+#: framework/includes/woo-functions.php:534
+#: framework/includes/elementor/verticalmenu.php:95
+msgid "Show All"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:336
+#: framework/includes/elementor/instagram.php:313
+#: framework/includes/elementor/product-tabs.php:433
+#: framework/includes/elementor/products.php:382
+#: framework/includes/elementor/team.php:317
+#: framework/includes/elementor/testimonial.php:272
+msgid "Show dot indicators"
+msgstr ""
+
+#: framework/includes/woo-functions.php:186
+#: framework/includes/woo-functions.php:195
+msgid "Size Guide"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:363
+#: framework/includes/elementor/instagram.php:340
+#: framework/includes/elementor/product-tabs.php:460
+#: framework/includes/elementor/products.php:409
+#: framework/includes/elementor/team.php:344
+#: framework/includes/elementor/testimonial.php:299
+msgid "Slide Speed"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:367
+#: framework/includes/elementor/instagram.php:344
+#: framework/includes/elementor/product-tabs.php:464
+#: framework/includes/elementor/products.php:413
+#: framework/includes/elementor/team.php:348
+#: framework/includes/elementor/testimonial.php:303
+msgid "Slide Speed in milliseconds"
+msgstr ""
+
+#: framework/includes/elementor/socials.php:87
+msgid "Social List"
+msgstr ""
+
+#: content-none.php:6
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: framework/includes/elementor/banner.php:30
+#: framework/includes/elementor/blog.php:30
+#: framework/includes/elementor/customlink.php:30
+#: framework/includes/elementor/iconbox.php:30
+#: framework/includes/elementor/instagram.php:38
+#: framework/includes/elementor/newsletter.php:30
+#: framework/includes/elementor/pinmapper.php:30
+#: framework/includes/elementor/product-tabs.php:30
+#: framework/includes/elementor/product-tabs.php:81
+#: framework/includes/elementor/products.php:30
+#: framework/includes/elementor/socials.php:30
+#: framework/includes/elementor/team.php:30
+#: framework/includes/elementor/testimonial.php:30
+#: framework/includes/elementor/title.php:30
+#: framework/includes/elementor/verticalmenu.php:30
+#: framework/includes/elementor/videopopup.php:30
+msgid "Style"
+msgstr ""
+
+#: framework/includes/elementor/banner.php:61
+msgid "Subtitle"
+msgstr ""
+
+#: framework/includes/elementor/product-tabs.php:143
+msgid "Tab"
+msgstr ""
+
+#: framework/includes/elementor/product-tabs.php:249
+msgid "Tab List"
+msgstr ""
+
+#: framework/includes/elementor/product-tabs.php:140
+msgid "Tab Title"
+msgstr ""
+
+#: framework/includes/blog-functions.php:308
+msgid "Tags: "
+msgstr ""
+
+#: framework/includes/elementor/blog.php:68
+#: framework/includes/elementor/product-tabs.php:160
+#: framework/includes/elementor/products.php:105
+msgid "Target"
+msgstr ""
+
+#: framework/includes/elementor/team.php:133
+msgid "Team List"
+msgstr ""
+
+#: framework/includes/elementor/testimonial.php:99
+msgid "Testimonial List"
+msgstr ""
+
+#: framework/includes/elementor/customlink.php:131
+msgid "Text"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:202
+#: framework/includes/elementor/instagram.php:179
+#: framework/includes/elementor/product-tabs.php:299
+#: framework/includes/elementor/products.php:248
+#: framework/includes/elementor/team.php:183
+#: framework/includes/elementor/testimonial.php:138
+msgid "The Number Of Rows"
+msgstr ""
+
+#: framework/includes/elementor/banner.php:72
+#: framework/includes/elementor/blog.php:51
+#: framework/includes/elementor/customlink.php:79
+#: framework/includes/elementor/iconbox.php:99
+#: framework/includes/elementor/instagram.php:98
+#: framework/includes/elementor/newsletter.php:51
+#: framework/includes/elementor/product-tabs.php:187
+#: framework/includes/elementor/products.php:51
+#: framework/includes/elementor/products.php:145
+#: framework/includes/elementor/socials.php:79
+#: framework/includes/elementor/team.php:51
+#: framework/includes/elementor/title.php:90
+#: framework/includes/elementor/verticalmenu.php:64
+#: framework/includes/elementor/videopopup.php:61
+msgid "Title"
+msgstr ""
+
+#: framework/includes/elementor/product-tabs.php:165
+#: framework/includes/elementor/products.php:110
+msgid "Top Rated Products"
+msgstr ""
+
+#: framework/includes/elementor/product-tabs.php:118
+#: framework/includes/elementor/product-tabs.php:131
+#: framework/includes/elementor/products.php:83
+#: framework/includes/elementor/products.php:96
+msgid "Unit px"
+msgstr ""
+
+#: framework/includes/woo-functions.php:166
+msgid "Unlimit"
+msgstr ""
+
+#: framework/includes/woo-functions.php:830
+msgid "Upsell Products"
+msgstr ""
+
+#: framework/includes/elementor/product-tabs.php:52
+msgid "Using Ajax Tabs"
+msgstr ""
+
+#: functions.php:42
+msgid "Vertical Menu"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:247
+#: framework/includes/elementor/instagram.php:224
+#: framework/includes/elementor/product-tabs.php:344
+#: framework/includes/elementor/products.php:293
+#: framework/includes/elementor/team.php:228
+#: framework/includes/elementor/testimonial.php:183
+msgid "Vertical Slide Mode"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:263
+#: framework/includes/elementor/instagram.php:240
+#: framework/includes/elementor/product-tabs.php:360
+#: framework/includes/elementor/products.php:309
+#: framework/includes/elementor/team.php:244
+#: framework/includes/elementor/testimonial.php:199
+msgid "Vertical Swipe Mode"
+msgstr ""
+
+#: framework/includes/elementor/videopopup.php:86
+msgid "Video Link"
+msgstr ""
+
+#: framework/includes/elementor/videopopup.php:77
+msgid "Video Text"
+msgstr ""
+
+#: functions.php:202
+msgid "View Cart"
+msgstr ""
+
+#: framework/includes/elementor/videopopup.php:80
+msgid "Watch Video"
+msgstr ""
+
+#. Weekly archive title. %s is the week date format.
+#: framework/includes/breadcrumbs.php:192
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: framework/includes/breadcrumbs.php:644
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: 404.php:26
+msgid ""
+"We´re sorry but the page you are looking for does nor exist. You could "
+"return to "
+msgstr ""
+
+#: functions.php:82
+msgid "Widget Blog"
+msgstr ""
+
+#: functions.php:102
+msgid "Widget Product"
+msgstr ""
+
+#: functions.php:92
+msgid "Widget Shop"
+msgstr ""
+
+#: framework/includes/elementor/product-tabs.php:114
+#: framework/includes/elementor/products.php:79
+msgid "Width"
+msgstr ""
+
+#: framework/includes/woo-functions.php:192
+msgid "x"
+msgstr ""
+
+#: framework/includes/breadcrumbs.php:618
+#: framework/includes/breadcrumbs.php:643
+#: framework/includes/breadcrumbs.php:666
+#: framework/includes/breadcrumbs.php:689
+#: framework/includes/breadcrumbs.php:951
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: framework/includes/elementor/blog.php:250
+#: framework/includes/elementor/blog.php:266
+#: framework/includes/elementor/blog.php:283
+#: framework/includes/elementor/blog.php:315
+#: framework/includes/elementor/blog.php:332
+#: framework/includes/elementor/blog.php:349
+#: framework/includes/elementor/customlink.php:155
+#: framework/includes/elementor/instagram.php:227
+#: framework/includes/elementor/instagram.php:243
+#: framework/includes/elementor/instagram.php:260
+#: framework/includes/elementor/instagram.php:292
+#: framework/includes/elementor/instagram.php:309
+#: framework/includes/elementor/instagram.php:326
+#: framework/includes/elementor/product-tabs.php:55
+#: framework/includes/elementor/product-tabs.php:347
+#: framework/includes/elementor/product-tabs.php:363
+#: framework/includes/elementor/product-tabs.php:380
+#: framework/includes/elementor/product-tabs.php:412
+#: framework/includes/elementor/product-tabs.php:429
+#: framework/includes/elementor/product-tabs.php:446
+#: framework/includes/elementor/products.php:296
+#: framework/includes/elementor/products.php:312
+#: framework/includes/elementor/products.php:329
+#: framework/includes/elementor/products.php:361
+#: framework/includes/elementor/products.php:378
+#: framework/includes/elementor/products.php:395
+#: framework/includes/elementor/team.php:231
+#: framework/includes/elementor/team.php:247
+#: framework/includes/elementor/team.php:264
+#: framework/includes/elementor/team.php:296
+#: framework/includes/elementor/team.php:313
+#: framework/includes/elementor/team.php:330
+#: framework/includes/elementor/testimonial.php:186
+#: framework/includes/elementor/testimonial.php:202
+#: framework/includes/elementor/testimonial.php:219
+#: framework/includes/elementor/testimonial.php:251
+#: framework/includes/elementor/testimonial.php:268
+#: framework/includes/elementor/testimonial.php:285
+#: framework/includes/elementor/verticalmenu.php:55
+msgid "Yes"
+msgstr ""
+
+#: framework/includes/blog-functions.php:202
+msgid "Your comment is awaiting moderation."
+msgstr ""
